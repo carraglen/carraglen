@@ -4,4 +4,4 @@ backend:
   branch: master
   publish_mode: editorial_workflow
   media_folder: "uploads"
-  public_folder: "/uploads
+  public_folder: "/uploads"

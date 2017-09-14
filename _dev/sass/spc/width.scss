@@ -1,0 +1,70 @@
+/*
+ * Width
+ * -------------------------
+ */
+
+.width-10           { width: 10%; }
+.width-20           { width: 20%; }
+.width-25           { width: 25%; }
+.width-30           { width: 30%; }
+.width-33           { width: 33.3333333333%; }
+.width-40           { width: 40%; }
+.width-50           { width: 50%; }
+.width-60           { width: 60%; }
+.width-66           { width: 66.6666666666%; }
+.width-70           { width: 70%; }
+.width-75           { width: 75%; }
+.width-80           { width: 80%; }
+.width-90           { width: 90%; }
+.width-100          { width: 100%; }
+
+@include breakPoint(s) {
+    .bps-width-10   { width: 10%; }
+    .bps-width-20   { width: 20%; }
+    .bps-width-25   { width: 25%; }
+    .bps-width-30   { width: 30%; }
+    .bps-width-33   { width: 33.3333333333%; }
+    .bps-width-40   { width: 40%; }
+    .bps-width-50   { width: 50%; }
+    .bps-width-60   { width: 60%; }
+    .bps-width-66   { width: 66.6666666666%; }
+    .bps-width-70   { width: 70%; }
+    .bps-width-75   { width: 75%; }
+    .bps-width-80   { width: 80%; }
+    .bps-width-90   { width: 90%; }
+    .bps-width-100  { width: 100%; }
+}
+
+@include breakPoint(m) {
+    .bpm-width-10   { width: 10%; }
+    .bpm-width-20   { width: 20%; }
+    .bpm-width-25   { width: 25%; }
+    .bpm-width-30   { width: 30%; }
+    .bpm-width-33   { width: 33.3333333333%; }
+    .bpm-width-40   { width: 40%; }
+    .bpm-width-50   { width: 50%; }
+    .bpm-width-60   { width: 60%; }
+    .bpm-width-66   { width: 66.6666666666%; }
+    .bpm-width-70   { width: 70%; }
+    .bpm-width-75   { width: 75%; }
+    .bpm-width-80   { width: 80%; }
+    .bpm-width-90   { width: 90%; }
+    .bpm-width-100  { width: 100%; }
+}
+
+@include breakPoint(l) {
+    .bpl-width-10   { width: 10%; }
+    .bpl-width-20   { width: 20%; }
+    .bpl-width-25   { width: 25%; }
+    .bpl-width-30   { width: 30%; }
+    .bpl-width-33   { width: 33.3333333333%; }
+    .bpl-width-40   { width: 40%; }
+    .bpl-width-50   { width: 50%; }
+    .bpl-width-60   { width: 60%; }
+    .bpl-width-66   { width: 66.6666666666%; }
+    .bpl-width-70   { width: 70%; }
+    .bpl-width-75   { width: 75%; }
+    .bpl-width-80   { width: 80%; }
+    .bpl-width-90   { width: 90%; }
+    .bpl-width-100  { width: 100%; }
+}

@@ -1,0 +1,29 @@
+{% if include.header %}
+    <div class="marginRight-m bpl-marginRight-xl bpl-paddingRight-xs">
+{% else %}
+    <div class="marginBottom-s ta-center">
+{% endif %}
+    {% if page.title == "Home" %}
+        {% include link.html name="Home" url="/" active="true" header=include.header %}
+    {% else %}
+        {% include link.html name="Home" url="/" header=include.header %}
+    {% endif %}
+</div>
+
+{% for node in pages_list %}
+    {% if node.title != null %}
+        {% if node.layout == "page" %}
+            {% if include.header %}
+                <div class="marginRight-m bpl-marginRight-xl bpl-paddingRight-xs">
+            {% else %}
+                <div class="marginBottom-s ta-center">
+            {% endif %}
+                {% if page.url == node.url %}
+                    {% include link.html name=node.title url=node.url active="true" header=include.header %}
+                {% else %}
+                    {% include link.html name=node.title url=node.url header=include.header %}
+                {% endif %}
+            </div>
+        {% endif %}
+    {% endif %}
+{% endfor %}

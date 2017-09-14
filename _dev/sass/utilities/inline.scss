@@ -1,0 +1,22 @@
+/*
+ * Inline
+ * -------------------------
+ */
+
+.inline                 { font-size: 0 }
+.inline > div           { display: inline-block }
+
+@include breakPoint(s) {
+    .bps-inline         { font-size: 0 }
+    .bps-inline > div   { display: inline-block }
+}
+
+@include breakPoint(m) {
+    .bpm-inline         { font-size: 0 }
+    .bpm-inline > div   { display: inline-block }
+}
+
+@include breakPoint(l) {
+    .bpl-inline         { font-size: 0 }
+    .bpl-inline > div   { display: inline-block }
+}

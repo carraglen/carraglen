@@ -1,0 +1,28 @@
+{%  include sectionHeading.html
+    firstHeading="Main Contractor Projects"
+    subheading="We oversee and manage all aspects of the construction projects we work on."
+%}
+
+<section class="position-relative pageWrap pageWrap--l">
+    <div class="grid grid--1 bpm-grid--2 grid--l">
+        {% for post in site.categories["Main"] %}
+            {% include postLoop.html %}
+        {% endfor %}
+    </div>
+</section>
+
+{%  include sectionHeading.html
+    firstHeading="Development Projects"
+    subheading="With all development projects Carraglen has participated through the full process, from site selection, due-diligence and feasibility studies, negotiation to land purchase, design team selection, planning consultation, construction and finally sales."
+    pageWrap="m"
+%}
+
+<section class="position-relative pageWrap pageWrap--l paddingBottom-xl bps-paddingBottom-xxl bpm-paddingBottom-xxxl">
+    <div class="grid grid--1 bpm-grid--2 grid--l">
+        {% for post in site.categories["Development"] %}
+            {% include postLoop.html %}
+        {% endfor %}
+    </div>
+</section>
+
+{% include upsell.html %}

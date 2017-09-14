@@ -1,0 +1,143 @@
+//
+// Colors
+// -------------------------
+
+// This file depends on color-scheme.scss and
+// therefore must follow it in the compiler.
+
+// Single-responsibility classes for every color in the
+// color scheme.
+
+.c-green               { color: $green }
+.c-green--d            { color: $green--d }
+.c-green--l            { color: $green--l }
+
+// Gray Colors
+// -------------------------
+
+.c-black               { color: $black }
+.c-black--d            { color: $black--d }
+.c-black--l            { color: $black--l }
+
+.c-silver              { color: $silver }
+.c-silver--d           { color: $silver--d }
+.c-silver--l           { color: $silver--l }
+
+.c-smoke               { color: $smoke }
+.c-smoke--d            { color: $smoke--d }
+.c-smoke--l            { color: $smoke--l }
+
+.c-snow                { color: $snow }
+.c-snow--d             { color: $snow--d }
+.c-snow--l             { color: $snow--l }
+
+.c-white                { color: $white }
+
+// Social Colors
+// -------------------------
+
+.c-twitter             { color: $twitter }
+.c-facebook            { color: $facebook }
+.c-instagram           { color: $instagram }
+
+@include breakPoint(s) {
+    .bps-c-green       { color: $green }
+    .bps-c-green--d    { color: $green--d }
+    .bps-c-green--l    { color: $green--l }
+
+    // Gray Colors
+    // -------------------------
+
+    .bps-c-black       { color: $black }
+    .bps-c-black--d    { color: $black--d }
+    .bps-c-black--l    { color: $black--l }
+
+    .bps-c-silver      { color: $silver }
+    .bps-c-silver--d   { color: $silver--d }
+    .bps-c-silver--l   { color: $silver--l }
+
+    .bps-c-smoke       { color: $smoke }
+    .bps-c-smoke--d    { color: $smoke--d }
+    .bps-c-smoke--l    { color: $smoke--l }
+
+    .bps-c-snow        { color: $snow }
+    .bps-c-snow--d     { color: $snow--d }
+    .bps-c-snow--l     { color: $snow--l }
+
+    .bps-c-white       { color: $white }
+
+    // Social Colors
+    // -------------------------
+
+    .bps-c-twitter     { color: $twitter }
+    .bps-c-facebook    { color: $facebook }
+    .bps-c-instagram   { color: $instagram }
+}
+
+@include breakPoint(m) {
+    .bpm-c-green       { color: $green }
+    .bpm-c-green--d    { color: $green--d }
+    .bpm-c-green--l    { color: $green--l }
+
+    // Gray Colors
+    // -------------------------
+
+    .bpm-c-black       { color: $black }
+    .bpm-c-black--d    { color: $black--d }
+    .bpm-c-black--l    { color: $black--l }
+
+    .bpm-c-silver      { color: $silver }
+    .bpm-c-silver--d   { color: $silver--d }
+    .bpm-c-silver--l   { color: $silver--l }
+
+    .bpm-c-smoke       { color: $smoke }
+    .bpm-c-smoke--d    { color: $smoke--d }
+    .bpm-c-smoke--l    { color: $smoke--l }
+
+    .bpm-c-snow        { color: $snow }
+    .bpm-c-snow--d     { color: $snow--d }
+    .bpm-c-snow--l     { color: $snow--l }
+
+    .bpm-c-white       { color: $white }
+
+    // Social Colors
+    // -------------------------
+
+    .bpm-c-twitter     { color: $twitter }
+    .bpm-c-facebook    { color: $facebook }
+    .bpm-c-instagram   { color: $instagram }
+}
+
+@include breakPoint(l) {
+    .bpl-c-green       { color: $green }
+    .bpl-c-green--d    { color: $green--d }
+    .bpl-c-green--l    { color: $green--l }
+
+    // Gray Colors
+    // -------------------------
+
+    .bpl-c-black       { color: $black }
+    .bpl-c-black--d    { color: $black--d }
+    .bpl-c-black--l    { color: $black--l }
+
+    .bpl-c-silver      { color: $silver }
+    .bpl-c-silver--d   { color: $silver--d }
+    .bpl-c-silver--l   { color: $silver--l }
+
+    .bpl-c-smoke       { color: $smoke }
+    .bpl-c-smoke--d    { color: $smoke--d }
+    .bpl-c-smoke--l    { color: $smoke--l }
+
+    .bpl-c-snow        { color: $snow }
+    .bpl-c-snow--d     { color: $snow--d }
+    .bpl-c-snow--l     { color: $snow--l }
+
+    .bpm-c-white       { color: $white }
+
+    // Social Colors
+    // -------------------------
+
+    .bpl-c-twitter     { color: $twitter }
+    .bpl-c-facebook    { color: $facebook }
+    .bpl-c-instagram   { color: $instagram }
+}

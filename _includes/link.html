@@ -1,0 +1,25 @@
+{% if include.header %}
+    <a
+        href="{{ include.url | prepend:site.baseurl }}"
+        class=" display-inlineBlock fs-m lh-l td-none cursor-pointer transitionDuration-m tp-all
+                {% if include.active %}
+                    underline underline--white c-white
+                {% else %}
+                    c-white opacity-80 opacity-100--hover
+                {% endif %}
+    ">
+        {{ include.name }}
+    </a>
+{% else %}
+    <a
+        href="{{ include.url | prepend:site.baseurl }}"
+        class=" display-inlineBlock fs-m lh-l td-none cursor-pointer transitionDuration-m tp-all
+                {% if include.active %}
+                    c-green
+                {% else %}
+                    c-silver
+                {% endif %}
+    ">
+        {{ include.name }}
+    </a>
+{% endif %}

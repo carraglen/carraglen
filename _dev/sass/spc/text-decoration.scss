@@ -1,0 +1,30 @@
+/*
+ * Text decoration
+ * -------------------------
+ */
+
+.td-none                { text-decoration: none; }
+.td-underline           { text-decoration: underline; }
+.td-overline            { text-decoration: overline; }
+.td-lineThrough         { text-decoration: line-through; }
+
+@include breakPoint(s) {
+    .bps-td-none        { text-decoration: none; }
+    .bps-td-underline   { text-decoration: underline; }
+    .bps-td-overline    { text-decoration: overline; }
+    .bps-td-lineThrough { text-decoration: line-through; }
+}
+
+@include breakPoint(m) {
+    .bpm-td-none        { text-decoration: none; }
+    .bpm-td-underline   { text-decoration: underline; }
+    .bpm-td-overline    { text-decoration: overline; }
+    .bpm-td-lineThrough { text-decoration: line-through; }
+}
+
+@include breakPoint(l) {
+    .bpl-td-none        { text-decoration: none; }
+    .bpl-td-underline   { text-decoration: underline; }
+    .bpl-td-overline    { text-decoration: overline; }
+    .bpl-td-lineThrough { text-decoration: line-through; }
+}

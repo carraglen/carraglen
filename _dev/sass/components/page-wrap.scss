@@ -1,0 +1,26 @@
+/*
+ * Page wrap
+ * -------------------------
+ */
+
+.pageWrap {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pageWrap--s {
+    max-width: $breakpoint-s;
+}
+
+.pageWrap--m {
+    max-width: $breakpoint-m;
+}
+
+.pageWrap--l {
+    max-width: $breakpoint-l;
+}
+
+.pageWrap--xl {
+    max-width: $breakpoint-xl;
+}

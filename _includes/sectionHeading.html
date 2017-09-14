@@ -1,0 +1,23 @@
+<div class="position-relative paddingTopBottom-xl bps-paddingTopBottom-xxl bps-paddingLeftRight-m bpm-paddingLeftRight-xxl">
+    {% if include.pageWrap %}
+        <div class="pageWrap pageWrap--{{ include.pageWrap }} ta-center">
+    {% else %}
+        <div class="pageWrap pageWrap--s ta-center">
+    {% endif %}
+        <h3 class="fs-xl bps-fs-xxl fw-6 lh-m bps-lh-l">
+            {% if include.secondHeading %}
+                <span class="c-black">{{ include.firstHeading }}</span>
+                <span class="font-playfair c-green">&amp;</span>
+                <span class="c-black">{{ include.secondHeading }}</span>
+            {% else %}
+                <span class="c-black">{{ include.firstHeading }}</span>
+            {% endif %}
+        </h3>
+
+        <div class="width-10 marginTopBottom-m bg-smoke--d horizontallyCenter" style="height: 2px"></div>
+
+        <p class="c-silver fw-3 fs-m bps-fs-l bpm-fs-xl lh-l">
+            {{ include.subheading }}
+        </p>
+    </div>
+</div>

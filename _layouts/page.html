@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+{%  include header.html title=page.title headerImg=page.headerImg %}
+
+{% if page.gallery %}
+    {% include gallery.html %}
+{% else %}
+    {% if page.contactForm %}
+        {% include contact.html %}
+    {% else %}
+        {% if page.portfolio %}
+            {% include postBlocks.html %}
+        {% else %}
+            {% if page.sidebar %}
+                {% include sidebar.html %}
+            {% else %}
+                {% if page.address %}
+                    {% include portfolioItem.html %}
+                {% else %}
+                    {% if page.services %}
+                        {% include services.html %}
+                    {% endif %}
+
+                    <section class="position-relative post pageWrap pageWrap--m paddingTopBottom-l bps-paddingTopBottom-xl bpm-paddingTopBottom-xxl">
+                        {{ content }}
+                    </section>
+
+                    {% include upsell.html %}
+                {% endif %}
+            {% endif %}
+        {% endif %}
+    {% endif %}
+{% endif %}

@@ -1,0 +1,34 @@
+/*
+ * User select
+ * -------------------------
+ */
+
+.us-none                { user-select: none }
+.us-auto                { user-select: auto }
+.us-text                { user-select: text }
+.us-contain             { user-select: contain }
+.us-all                 { user-select: all }
+
+@include breakPoint(s) {
+    .bps-us-none        { user-select: none }
+    .bps-us-auto        { user-select: auto }
+    .bps-us-text        { user-select: text }
+    .bps-us-contain     { user-select: contain }
+    .bps-us-all         { user-select: all }
+}
+
+@include breakPoint(m) {
+    .bpm-us-none        { user-select: none }
+    .bpm-us-auto        { user-select: auto }
+    .bpm-us-text        { user-select: text }
+    .bpm-us-contain     { user-select: contain }
+    .bpm-us-all         { user-select: all }
+}
+
+@include breakPoint(l) {
+    .bpl-us-none        { user-select: none }
+    .bpl-us-auto        { user-select: auto }
+    .bpl-us-text        { user-select: text }
+    .bpl-us-contain     { user-select: contain }
+    .bpl-us-all         { user-select: all }
+}

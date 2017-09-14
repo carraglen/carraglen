@@ -1,0 +1,105 @@
+//
+// Z-index
+// -------------
+
+// Full z-index scale
+// -------------
+
+.zi-negative  { z-index: -1; }
+.zi-100       { z-index: 100; }
+.zi-200       { z-index: 200; }
+.zi-300       { z-index: 300; }
+.zi-400       { z-index: 400; }
+.zi-500       { z-index: 500; }
+.zi-600       { z-index: 600; }
+.zi-700       { z-index: 700; }
+.zi-800       { z-index: 800; }
+.zi-900       { z-index: 900; }
+
+// Abstracted z-index layers
+// -------------
+
+.zi-weak      { @extend .zi-100; }
+.zi-chrome    { @extend .zi-300; }
+.zi-overlay   { @extend .zi-500; }
+.zi-modal     { @extend .zi-700; }
+.zi-strong    { @extend .zi-900; }
+.zi-max       { z-index: 9999; }
+
+@include breakPoint(s) {
+    // Full z-index scale
+    // -------------
+
+    .breakPointS-zi-negative  { z-index: -1; }
+    .breakPointS-zi-100       { z-index: 100; }
+    .breakPointS-zi-200       { z-index: 200; }
+    .breakPointS-zi-300       { z-index: 300; }
+    .breakPointS-zi-400       { z-index: 400; }
+    .breakPointS-zi-500       { z-index: 500; }
+    .breakPointS-zi-600       { z-index: 600; }
+    .breakPointS-zi-700       { z-index: 700; }
+    .breakPointS-zi-800       { z-index: 800; }
+    .breakPointS-zi-900       { z-index: 900; }
+
+    // Abstracted z-index layers
+    // -------------
+
+    .breakPointS-zi-weak      { z-index: 100; }
+    .breakPointS-zi-chrome    { z-index: 300; }
+    .breakPointS-zi-overlay   { z-index: 500; }
+    .breakPointS-zi-modal     { z-index: 700; }
+    .breakPointS-zi-strong    { z-index: 900; }
+    .breakPointS-zi-max       { z-index: 9999; }
+}
+
+@include breakPoint(m) {
+    // Full z-index scale
+    // -------------
+
+    .breakPointM-zi-negative  { z-index: -1; }
+    .breakPointM-zi-100       { z-index: 100; }
+    .breakPointM-zi-200       { z-index: 200; }
+    .breakPointM-zi-300       { z-index: 300; }
+    .breakPointM-zi-400       { z-index: 400; }
+    .breakPointM-zi-500       { z-index: 500; }
+    .breakPointM-zi-600       { z-index: 600; }
+    .breakPointM-zi-700       { z-index: 700; }
+    .breakPointM-zi-800       { z-index: 800; }
+    .breakPointM-zi-900       { z-index: 900; }
+
+    // Abstracted z-index layers
+    // -------------
+
+    .breakPointM-zi-weak      { z-index: 100; }
+    .breakPointM-zi-chrome    { z-index: 300; }
+    .breakPointM-zi-overlay   { z-index: 500; }
+    .breakPointM-zi-modal     { z-index: 700; }
+    .breakPointM-zi-strong    { z-index: 900; }
+    .breakPointM-zi-max       { z-index: 9999; }
+}
+
+@include breakPoint(l) {
+    // Full z-index scale
+    // -------------
+
+    .breakPointL-zi-negative  { z-index: -1; }
+    .breakPointL-zi-100       { z-index: 100; }
+    .breakPointL-zi-200       { z-index: 200; }
+    .breakPointL-zi-300       { z-index: 300; }
+    .breakPointL-zi-400       { z-index: 400; }
+    .breakPointL-zi-500       { z-index: 500; }
+    .breakPointL-zi-600       { z-index: 600; }
+    .breakPointL-zi-700       { z-index: 700; }
+    .breakPointL-zi-800       { z-index: 800; }
+    .breakPointL-zi-900       { z-index: 900; }
+
+    // Abstracted z-index layers
+    // -------------
+
+    .breakPointL-zi-weak      { z-index: 100; }
+    .breakPointL-zi-chrome    { z-index: 300; }
+    .breakPointL-zi-overlay   { z-index: 500; }
+    .breakPointL-zi-modal     { z-index: 700; }
+    .breakPointL-zi-strong    { z-index: 900; }
+    .breakPointL-zi-max       { z-index: 9999; }
+}

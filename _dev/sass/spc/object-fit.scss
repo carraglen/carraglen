@@ -1,0 +1,46 @@
+/*
+ * Object Fit
+ * -------------------------
+ */
+
+.of-contain     { object-fit: contain; }
+.of-cover       { object-fit: cover; }
+.of-fill        { object-fit: fill; }
+.of-inherit     { object-fit: inherit; }
+.of-initial     { object-fit: initial; }
+.of-none        { object-fit: none; }
+.of-scaleDown   { object-fit: scale-down; }
+.of-unset       { object-fit: unset; }
+
+@include breakPoint(s) {
+    .bps-of-contain     { object-fit: contain; }
+    .bps-of-cover       { object-fit: cover; }
+    .bps-of-fill        { object-fit: fill; }
+    .bps-of-inherit     { object-fit: inherit; }
+    .bps-of-initial     { object-fit: initial; }
+    .bps-of-none        { object-fit: none; }
+    .bps-of-scaleDown   { object-fit: scale-down; }
+    .bps-of-unset       { object-fit: unset; }
+}
+
+@include breakPoint(m) {
+    .bpm-of-contain     { object-fit: contain; }
+    .bpm-of-cover       { object-fit: cover; }
+    .bpm-of-fill        { object-fit: fill; }
+    .bpm-of-inherit     { object-fit: inherit; }
+    .bpm-of-initial     { object-fit: initial; }
+    .bpm-of-none        { object-fit: none; }
+    .bpm-of-scaleDown   { object-fit: scale-down; }
+    .bpm-of-unset       { object-fit: unset; }
+}
+
+@include breakPoint(l) {
+    .bpl-of-contain     { object-fit: contain; }
+    .bpl-of-cover       { object-fit: cover; }
+    .bpl-of-fill        { object-fit: fill; }
+    .bpl-of-inherit     { object-fit: inherit; }
+    .bpl-of-initial     { object-fit: initial; }
+    .bpl-of-none        { object-fit: none; }
+    .bpl-of-scaleDown   { object-fit: scale-down; }
+    .bpl-of-unset       { object-fit: unset; }
+}

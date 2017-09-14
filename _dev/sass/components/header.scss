@@ -1,0 +1,94 @@
+/*
+ * Header
+ * -------------------------
+ */
+
+/*!
+/* uncss:ignore */
+
+$headerHeight: 70px;
+
+.headroom {
+    @extend .tp-all;
+    @extend .transitionDuration-xl;
+    @extend .transitionTimingFunction-cv-easeOutCircular;
+    @extend .wc-transform;
+
+    height: $headerHeight;
+}
+
+@include breakPoint(m) {
+    .headroom {
+        height: 10%;
+    }
+}
+
+.headroom.headroom--not-top {
+    height: $headerHeight;
+    box-shadow: $boxShadow-raise;
+    background-color: rgba($white,.97);
+}
+
+.headroom--not-top svg {
+    width: 110px;
+    height: 30px;
+}
+
+.headroom--not-top svg path:last-child {
+    fill: $black;
+}
+
+.headroom--not-top a {
+    color: $silver;
+}
+
+.headroom--not-top .underline {
+    color: $green;
+}
+
+/*
+ * Navigation toggle
+ * -------------------------
+ */
+
+.nav-toggle {
+    top: -1px;
+}
+
+.nav-toggle,
+.nav-toggle:before,
+.nav-toggle:after {
+    width: 20px;
+    height: 2px;
+    position: relative;
+    background: $smoke--d;
+}
+
+.nav-toggle:before,
+.nav-toggle:after {
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+.nav-toggle:before {
+    top: -6px;
+}
+
+.nav-toggle:after {
+    bottom: -6px;
+}
+
+.nav-toggle--is-open {
+    background: transparent;
+}
+
+.nav-toggle--is-open:before {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+.nav-toggle--is-open:after {
+    bottom: 0;
+    transform: rotate(45deg);
+}

@@ -1,0 +1,22 @@
+/*
+ * Backface visibility
+ * -------------------------
+ */
+
+.bv-hidden            { backface-visibility: hidden }
+.bv-visible           { backface-visibility: visible }
+
+@include breakPoint(s) {
+    .bps-bv-hidden    { backface-visibility: hidden }
+    .bps-bv-visible   { backface-visibility: visible }
+}
+
+@include breakPoint(m) {
+    .bpm-bv-hidden    { backface-visibility: hidden }
+    .bpm-bv-visible   { backface-visibility: visible }
+}
+
+@include breakPoint(l) {
+    .bpl-bv-hidden    { backface-visibility: hidden }
+    .bpl-bv-visible   { backface-visibility: visible }
+}

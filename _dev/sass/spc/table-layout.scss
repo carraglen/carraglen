@@ -1,0 +1,22 @@
+/*
+ * Table layout
+ * -------------------------
+ */
+
+.tl-auto            { table-layout: auto; }
+.tl-fixed           { table-layout: fixed; }
+
+@include breakPoint(s) {
+    .bps-tl-auto    { table-layout: auto; }
+    .bps-tl-fixed   { table-layout: fixed; }
+}
+
+@include breakPoint(m) {
+    .bpm-tl-auto    { table-layout: auto; }
+    .bpm-tl-fixed   { table-layout: fixed; }
+}
+
+@include breakPoint(l) {
+    .bpl-tl-auto    { table-layout: auto; }
+    .bpl-tl-fixed   { table-layout: fixed; }
+}

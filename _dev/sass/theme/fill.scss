@@ -1,0 +1,143 @@
+//
+// Fill colors
+// -------------------------
+
+// This file depends on color-scheme.scss and
+// therefore must follow it in the compiler.
+
+// Single-responsibility classes for every color in the
+// color scheme.
+
+.fill-green               { fill: $green }
+.fill-green--d            { fill: $green--d }
+.fill-green--l            { fill: $green--l }
+
+// Gray Colors
+// -------------------------
+
+.fill-black               { fill: $black }
+.fill-black--d            { fill: $black--d }
+.fill-black--l            { fill: $black--l }
+
+.fill-silver              { fill: $silver }
+.fill-silver--d           { fill: $silver--d }
+.fill-silver--l           { fill: $silver--l }
+
+.fill-smoke               { fill: $smoke }
+.fill-smoke--d            { fill: $smoke--d }
+.fill-smoke--l            { fill: $smoke--l }
+
+.fill-snow                { fill: $snow }
+.fill-snow--d             { fill: $snow--d }
+.fill-snow--l             { fill: $snow--l }
+
+.fill-white               { fill: $white }
+
+// Social Colors
+// -------------------------
+
+.fill-twitter             { fill: $twitter }
+.fill-facebook            { fill: $facebook }
+.fill-instagram           { fill: $instagram }
+
+@include breakPoint(s) {
+    .bps-fill-green       { fill: $green }
+    .bps-fill-green--d    { fill: $green--d }
+    .bps-fill-green--l    { fill: $green--l }
+
+    // Gray Colors
+    // -------------------------
+
+    .bps-fill-black       { fill: $black }
+    .bps-fill-black--d    { fill: $black--d }
+    .bps-fill-black--l    { fill: $black--l }
+
+    .bps-fill-silver      { fill: $silver }
+    .bps-fill-silver--d   { fill: $silver--d }
+    .bps-fill-silver--l   { fill: $silver--l }
+
+    .bps-fill-smoke       { fill: $smoke }
+    .bps-fill-smoke--d    { fill: $smoke--d }
+    .bps-fill-smoke--l    { fill: $smoke--l }
+
+    .bps-fill-snow        { fill: $snow }
+    .bps-fill-snow--d     { fill: $snow--d }
+    .bps-fill-snow--l     { fill: $snow--l }
+
+    .bps-fill-white       { fill: $white }
+
+    // Social Colors
+    // -------------------------
+
+    .bps-fill-twitter     { fill: $twitter }
+    .bps-fill-facebook    { fill: $facebook }
+    .bps-fill-instagram   { fill: $instagram }
+}
+
+@include breakPoint(m) {
+    .bpm-fill-green       { fill: $green }
+    .bpm-fill-green--d    { fill: $green--d }
+    .bpm-fill-green--l    { fill: $green--l }
+
+    // Gray Colors
+    // -------------------------
+
+    .bpm-fill-black       { fill: $black }
+    .bpm-fill-black--d    { fill: $black--d }
+    .bpm-fill-black--l    { fill: $black--l }
+
+    .bpm-fill-silver      { fill: $silver }
+    .bpm-fill-silver--d   { fill: $silver--d }
+    .bpm-fill-silver--l   { fill: $silver--l }
+
+    .bpm-fill-smoke       { fill: $smoke }
+    .bpm-fill-smoke--d    { fill: $smoke--d }
+    .bpm-fill-smoke--l    { fill: $smoke--l }
+
+    .bpm-fill-snow        { fill: $snow }
+    .bpm-fill-snow--d     { fill: $snow--d }
+    .bpm-fill-snow--l     { fill: $snow--l }
+
+    .bpm-fill-white       { fill: $white }
+
+    // Social Colors
+    // -------------------------
+
+    .bpm-fill-twitter     { fill: $twitter }
+    .bpm-fill-facebook    { fill: $facebook }
+    .bpm-fill-instagram   { fill: $instagram }
+}
+
+@include breakPoint(l) {
+    .bpl-fill-green       { fill: $green }
+    .bpl-fill-green--d    { fill: $green--d }
+    .bpl-fill-green--l    { fill: $green--l }
+
+    // Gray Colors
+    // -------------------------
+
+    .bpl-fill-black       { fill: $black }
+    .bpl-fill-black--d    { fill: $black--d }
+    .bpl-fill-black--l    { fill: $black--l }
+
+    .bpl-fill-silver      { fill: $silver }
+    .bpl-fill-silver--d   { fill: $silver--d }
+    .bpl-fill-silver--l   { fill: $silver--l }
+
+    .bpl-fill-smoke       { fill: $smoke }
+    .bpl-fill-smoke--d    { fill: $smoke--d }
+    .bpl-fill-smoke--l    { fill: $smoke--l }
+
+    .bpl-fill-snow        { fill: $snow }
+    .bpl-fill-snow--d     { fill: $snow--d }
+    .bpl-fill-snow--l     { fill: $snow--l }
+
+    .bpl-fill-white       { fill: $white }
+
+    // Social Colors
+    // -------------------------
+
+    .bpl-fill-twitter     { fill: $twitter }
+    .bpl-fill-facebook    { fill: $facebook }
+    .bpl-fill-instagram   { fill: $instagram }
+}

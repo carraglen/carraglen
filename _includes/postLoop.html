@@ -1,0 +1,29 @@
+<div>
+    <div class="position-relative" style="min-height: 500px">
+        <div class="position-absolute pinAll boxShadow-sublte bw-1 bs-solid bc-smoke br-m" style="padding-top: 50%">
+            <div class="padding-l">
+                <div class="marginBottom-xxs">
+                    <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="display-inlineBlock fs-m lh-m td-none cursor-pointer transitionDuration-m tp-all c-black c-green--hover">
+                        <span class="lh-m fw-6 fs-xl">
+                            {{ post.title }}
+                        </span>
+                    </a>
+                </div>
+
+                <div class="marginBottom-xxs">
+                    <div class="truncateText-three c-silver fw-3 fs-m lh-l">
+                        {{ post.address }}
+                    </div>
+                </div>
+
+                <div class="truncateText-three c-black fw-3 fs-m lh-l">
+                    {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+                </div>
+            </div>
+        </div>
+
+        <a class="display-block aspectRatio aspectRatio--50" href="{{ post.url }}">
+            <div class="aspectRatio-content btlr-m btrr-m cursor-pointer bs-cover bp-CC bg-snow--d" style="background-image: url({{ post.image | prepend: '/uploads/' | prepend: site.baseurl | prepend: site.url }})"></div>
+        </a>
+    </div>
+</div>

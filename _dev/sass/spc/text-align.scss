@@ -1,0 +1,26 @@
+/*
+ * Text align
+ * -------------------------
+ */
+
+.ta-left            { text-align: left; }
+.ta-center          { text-align: center; }
+.ta-right           { text-align: right; }
+
+@include breakPoint(s) {
+    .bps-ta-left    { text-align: left; }
+    .bps-ta-center  { text-align: center; }
+    .bps-ta-right   { text-align: right; }
+}
+
+@include breakPoint(m) {
+    .bpm-ta-left    { text-align: left; }
+    .bpm-ta-center  { text-align: center; }
+    .bpm-ta-right   { text-align: right; }
+}
+
+@include breakPoint(l) {
+    .bpl-ta-left    { text-align: left; }
+    .bpl-ta-center  { text-align: center; }
+    .bpl-ta-right   { text-align: right; }
+}

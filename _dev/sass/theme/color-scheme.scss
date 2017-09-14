@@ -1,0 +1,50 @@
+//
+// Color Scheme
+// -------------------------
+
+// The entire color scheme. Colors are grouped into 5
+// categories - brand, grayscale, gray, and UI. In each
+// category, we first define the base colors. Then we define
+// darker shades or lighter tints as needed.
+
+// Legend
+// -------------------------
+
+//  d = Dark
+//  l = Light
+//  x = Extra
+
+// Brand Colors
+// -------------------------
+
+$green: #00bd6e;
+$green--d: darken($green, 10%);
+$green--l: lighten($green, 10%);
+
+// Gray Colors
+// -------------------------
+
+$black: #1C2A38;
+$black--d: darken($black, 10%);
+$black--l: lighten($black, 10%);
+
+$silver: #7A8A99;
+$silver--d: darken($silver, 10%);
+$silver--l: lighten($silver, 10%);
+
+$smoke: #DBE1E8;
+$smoke--d: darken($smoke, 10%);
+$smoke--l: lighten($smoke, 10%);
+
+$snow: #EFF4F9;
+$snow--d: darken($snow, 10%);
+$snow--l: lighten($snow, 10%);
+
+$white: #ffffff;
+
+// Social Colors
+// -------------------------
+
+$twitter: #55acee;
+$facebook: #3b5999;
+$instagram: #3f729b;

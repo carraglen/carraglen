@@ -1,0 +1,136 @@
+//
+// Hover states
+// -------------------------
+
+// All hover states are wrapped in a desktop
+// media query because hover states are not
+// possible on touch devices, plus they stick
+// and cause issues.
+
+@include breakPoint(m) {
+    .c-green--hover:hover                   { color: $green }
+    .c-green--d--hover:hover                { color: $green--d }
+    .c-green--l--hover:hover                { color: $green--l }
+
+    // Gray Colors
+    // -------------------------
+
+    .c-black--hover:hover                   { color: $black }
+    .c-black--d--hover:hover                { color: $black--d }
+    .c-black--l--hover:hover                { color: $black--l }
+
+    .c-silver--hover:hover                  { color: $silver }
+    .c-silver--d--hover:hover               { color: $silver--d }
+    .c-silver--l--hover:hover               { color: $silver--l }
+
+    .c-smoke--hover:hover                   { color: $smoke }
+    .c-smoke--d--hover:hover                { color: $smoke--d }
+    .c-smoke--l--hover:hover                { color: $smoke--l }
+
+    .c-snow--hover:hover                    { color: $snow }
+    .c-snow--d--hover:hover                 { color: $snow--d }
+    .c-snow--l--hover:hover                 { color: $snow--l }
+
+    .c-white--hover:hover                   { color: $white }
+
+    // Social Colors
+    // -------------------------
+
+    .c-twitter--hover:hover                 { color: $twitter }
+    .c-facebook--hover:hover                { color: $facebook }
+    .c-instagram--hover:hover               { color: $instagram }
+
+    // Background hovers
+    // -------------------------
+
+    .bg-green--hover:hover               { background: $green }
+    .bg-green--d--hover:hover            { background: $green--d }
+    .bg-green--l--hover:hover            { background: $green--l }
+
+    // Gray Colors
+    // -------------------------
+
+    .bg-black--hover:hover               { background: $black }
+    .bg-black--d--hover:hover            { background: $black--d }
+    .bg-black--l--hover:hover            { background: $black--l }
+
+    .bg-silver--hover:hover              { background: $silver }
+    .bg-silver--d--hover:hover           { background: $silver--d }
+    .bg-silver--l--hover:hover           { background: $silver--l }
+
+    .bg-smoke--hover:hover               { background: $smoke }
+    .bg-smoke--d--hover:hover            { background: $smoke--d }
+    .bg-smoke--l--hover:hover            { background: $smoke--l }
+
+    .bg-snow--hover:hover                { background: $snow }
+    .bg-snow--d--hover:hover             { background: $snow--d }
+    .bg-snow--l--hover:hover             { background: $snow--l }
+
+    .bg-white--hover:hover               { background: $white }
+
+    // Social Colors
+    // -------------------------
+
+    .bg-twitter--hover:hover             { background: $twitter }
+    .bg-facebook--hover:hover            { background: $facebook }
+    .bg-instagram--hover:hover           { background: $instagram }
+
+    // Fill hovers
+    // -------------------------
+
+    .fill-green--hover:hover               { fill: $green }
+    .fill-green--d--hover:hover            { fill: $green--d }
+    .fill-green--l--hover:hover            { fill: $green--l }
+
+    // Gray Colors
+    // -------------------------
+
+    .fill-black--hover:hover               { fill: $black }
+    .fill-black--d--hover:hover            { fill: $black--d }
+    .fill-black--l--hover:hover            { fill: $black--l }
+
+    .fill-silver--hover:hover              { fill: $silver }
+    .fill-silver--d--hover:hover           { fill: $silver--d }
+    .fill-silver--l--hover:hover           { fill: $silver--l }
+
+    .fill-smoke--hover:hover               { fill: $smoke }
+    .fill-smoke--d--hover:hover            { fill: $smoke--d }
+    .fill-smoke--l--hover:hover            { fill: $smoke--l }
+
+    .fill-snow--hover:hover                { fill: $snow }
+    .fill-snow--d--hover:hover             { fill: $snow--d }
+    .fill-snow--l--hover:hover             { fill: $snow--l }
+
+    .fill-white--hover:hover               { fill: $white }
+
+    // Social Colors
+    // -------------------------
+
+    .fill-twitter--hover:hover             { fill: $twitter }
+    .fill-facebook--hover:hover            { fill: $facebook }
+    .fill-instagram--hover:hover           { fill: $instagram }
+
+    // Opacity hovers
+    // -------------------------
+
+    .opacity-0--hover:hover                 { opacity: 0; }
+    .opacity-5--hover:hover                 { opacity: .03; }
+    .opacity-5--hover:hover                 { opacity: .05; }
+    .opacity-8--hover:hover                 { opacity: .08; }
+    .opacity-10--hover:hover                { opacity: .1; }
+    .opacity-15--hover:hover                { opacity: .15; }
+    .opacity-20--hover:hover                { opacity: .2; }
+    .opacity-30--hover:hover                { opacity: .3; }
+    .opacity-40--hover:hover                { opacity: .4; }
+    .opacity-50--hover:hover                { opacity: .5; }
+    .opacity-60--hover:hover                { opacity: .6; }
+    .opacity-70--hover:hover                { opacity: .7; }
+    .opacity-80--hover:hover                { opacity: .8; }
+    .opacity-90--hover:hover                { opacity: .9; }
+    .opacity-100--hover:hover               { opacity: 1; }
+
+    // Box shadow hovers
+    // -------------------------
+
+    .boxShadow-none--hover:hover            { box-shadow: none }
+}

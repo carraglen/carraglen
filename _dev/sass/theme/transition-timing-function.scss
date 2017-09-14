@@ -1,0 +1,22 @@
+//
+// Transition Timing Function
+// -------------
+
+.transitionTimingFunction-linear                { transition-timing-function: linear; }
+.transitionTimingFunction-ease                  { transition-timing-function: ease; }
+.transitionTimingFunction-ease-in               { transition-timing-function: ease-in; }
+.transitionTimingFunction-ease-out              { transition-timing-function: ease-out; }
+.transitionTimingFunction-ease-in-out           { transition-timing-function: ease-in-out; }
+
+// Hover transitions
+// -------------
+
+.transitionTimingFunction-cb--scaleUp           { transition-timing-function: $transitionTimingFunction-cb--scaleUp; }
+
+// Modal transitions
+// -------------
+
+.transitionTimingFunction-cb--scaleOut          { transition-timing-function: $transitionTimingFunction-cb--scaleOut; }
+.transitionTimingFunction-cb--scaleIn           { transition-timing-function: $transitionTimingFunction-cb--scaleIn; }
+.transitionTimingFunction-cv-easeOutCircular    { transition-timing-function: $transitionTimingFunction-cv-easeOutCircular; }
+.transitionTimingFunction-cv-easeInOutBack      { transition-timing-function: $transitionTimingFunction-cv-easeInOutBack; }

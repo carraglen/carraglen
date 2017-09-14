@@ -1,0 +1,96 @@
+/*
+ * Post specific styles
+ * -------------------------
+ */
+
+.post > p {
+    @extend .lh-l;
+    @extend .fw-3;
+    @extend .fs-l;
+    @extend .bpm-fs-xl;
+    @extend .c-black;
+
+    @extend .marginBottom-l;
+}
+
+/* Headings
+ * -------------------------
+ */
+
+.post > h2 {
+    @extend .lh-l;
+    @extend .fw-6;
+    @extend .fs-xl;
+    @extend .bpm-fs-xxl;
+    @extend .c-black;
+
+    @extend .marginTop-xl;
+    @extend .marginBottom-l;
+}
+
+.post > h4 {
+    @extend .lh-l;
+    @extend .fw-3;
+    @extend .fs-xl;
+    @extend .bpm-fs-xxl;
+    @extend .c-black;
+
+    @extend .marginBottom-l;
+}
+
+/* Lists
+ * -------------------------
+ */
+
+.post ul,
+.post ol {
+    @extend .paddingLeft-l;
+    @extend .bpm-paddingLeft-xl;
+}
+
+.post li {
+    @extend .lh-l;
+    @extend .fw-3;
+    @extend .fs-l;
+    @extend .bpm-fs-xl;
+    @extend .c-black;
+
+    @extend .marginBottom-m;
+    @extend .paddingLeft-xs;
+    @extend .marginLeft-xs;
+}
+
+.post blockquote {
+    @extend .bw-0;
+    @extend .bwl-2;
+    @extend .bc-green;
+    @extend .bs-solid;
+    @extend .marginTopBottom-l;
+    @extend .paddingTopBottom-m;
+    @extend .paddingLeftRight-l;
+}
+
+.post blockquote p {
+    @extend .lh-m;
+    @extend .fw-7;
+    @extend .fs-xl;
+    @extend .bpm-fs-xxl;
+    @extend .font-playfair;
+    @extend .c-green;
+}
+
+/* Links
+ * -------------------------
+ */
+
+.post a {
+    @extend .display-inlineBlock;
+
+    @extend .fw-4;
+    @extend .c-green;
+    @extend .c-green--d--hover;
+
+    @extend .tp-all;
+    @extend .td-none;
+    @extend .transitionDuration-m;
+}

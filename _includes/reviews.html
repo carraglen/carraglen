@@ -1,0 +1,76 @@
+{%  include sectionHeading.html
+    firstHeading="Customer reviews"
+    secondHeading="ratings"
+    subheading="From transparent quotes and costing’s, to regular communications with project updates, everything we do is based on our focus on clients."
+%}
+
+<section class="pageWrap pageWrap--l position-relative">
+    <div class="slider js_slider js_variablewlidth">
+        <div class="inline paddingBottom-xl bps-paddingBottom-xxl ta-center us-none">
+            <div class="js_prev marginRight-xs">
+                <svg class="fill-smoke--d fill-silver--hover cursor-pointer transitionDuration-l" width="8" height="14" viewBox="0 0 8 14">
+                    <path d="M3.53,7L7.61,2.51a1.5,1.5,0,1,0-2.22-2L0.39,6a1.5,1.5,0,0,0,0,2l5,5.5a1.5,1.5,0,1,0,2.22-2Z" />
+                </svg>
+            </div>
+
+            <div class="js_next">
+                <svg class="fill-smoke--d fill-silver--hover cursor-pointer transitionDuration-l" width="8" height="14" viewBox="0 0 8 14">
+                    <path d="M7.61,6l-5-5.5a1.5,1.5,0,1,0-2.22,2L4.47,7,0.39,11.49a1.5,1.5,0,1,0,2.22,2l5-5.5A1.5,1.5,0,0,0,7.61,6Z" />
+                </svg>
+            </div>
+        </div>
+
+        <div class="js_frame frame position-relative overflow-hidden ws-nowrap paddingBottom-xl bps-paddingBottom-xxl">
+            <ul class="js_slides display-block inline">
+                <li class="js_slide width-100 bpm-width-50 position-relative display-inlineBlock va-top">
+                    {% include  testimonial.html
+                                person="Sarah"
+                                city="Wandsworth"
+                                text="Not only was the job completed on time and within budget. John does an excellent job of communicating with us during the initial project stages and throughout the entire process. We need more professionals like you."
+                    %}
+                </li><!--
+
+                --><li class="js_slide width-100 bpm-width-50 position-relative display-inlineBlock va-top">
+                    {% include  testimonial.html
+                                person="Charlie"
+                                city="Fulham"
+                                text="You should be commended for your enthusiastic approach to the construction industry.  Your onsite team was a pleasure to work with and truly understand the meaning of can do and customer satisfaction."
+                    %}
+                </li><!--
+
+                --><li class="js_slide width-100 bpm-width-50 position-relative display-inlineBlock va-top">
+                    {% include  testimonial.html
+                                person="James"
+                                city="Banstead"
+                                text="Our overall experience with Carraglen on this project was first class…I would like to commend and thank you on your efforts in achieving, indeed exceeding our expectations on this project."
+                    %}
+                </li><!--
+
+
+                --><li class="js_slide width-100 bpm-width-50 position-relative display-inlineBlock va-top">
+                    {% include  testimonial.html
+                                person="Chris"
+                                city="Roehamptoon"
+                                text="Working with John from Carraglen was a pleasure, he always listened to our ideas and did all he could to deliver what we were asking for. His teams work was of the highest quality with everything finished on time, we were very happy with the results."
+                    %}
+                </li><!--
+
+                --><li class="js_slide width-100 bpm-width-50 position-relative display-inlineBlock va-top">
+                    {% include  testimonial.html
+                                person="Matt"
+                                city="Acton"
+                                text="From the beginning, it was clear that we made the right decision in selecting Carraglen for our project. We were extremely pleased with the entire experience. Everyone we worked with from your company was dedicated to understanding our needs and providing us with a top class product."
+                    %}
+                </li><!--
+
+                --><li class="js_slide width-100 bpm-width-50 position-relative display-inlineBlock va-top">
+                    {% include  testimonial.html
+                                person="Toni"
+                                city="Roehampton"
+                                text="John carried out two projects for us; He was quick to respond to our queries and all the work was of a very high standard and excellent finish. The on-site contractors were polite, helpful and left the site clean and clear every day. He dropped by often to check on progress and was always on hand to advise when necessary. I wouldn’t hesitate to recommend him to friends and family."
+                    %}
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

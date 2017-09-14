@@ -1,0 +1,143 @@
+//
+// Border Colors
+// -------------------------
+
+// This file depends on color-scheme.scss and
+// therefore must follow it in the compiler.
+
+// Single-responsibility classes for every color in the
+// color scheme.
+
+.bc-green               { border-color: $green }
+.bc-green--d            { border-color: $green--d }
+.bc-green--l            { border-color: $green--l }
+
+// Gray Colors
+// -------------------------
+
+.bc-black               { border-color: $black }
+.bc-black--d            { border-color: $black--d }
+.bc-black--l            { border-color: $black--l }
+
+.bc-silver              { border-color: $silver }
+.bc-silver--d           { border-color: $silver--d }
+.bc-silver--l           { border-color: $silver--l }
+
+.bc-smoke               { border-color: $smoke }
+.bc-smoke--d            { border-color: $smoke--d }
+.bc-smoke--l            { border-color: $smoke--l }
+
+.bc-snow                { border-color: $snow }
+.bc-snow--d             { border-color: $snow--d }
+.bc-snow--l             { border-color: $snow--l }
+
+.bc-white               { border-color: $white }
+
+// Social Colors
+// -------------------------
+
+.bc-twitter             { border-color: $twitter }
+.bc-facebook            { border-color: $facebook }
+.bc-instagram           { border-color: $instagram }
+
+@include breakPoint(s) {
+    .bps-bc-green       { border-color: $green }
+    .bps-bc-green--d    { border-color: $green--d }
+    .bps-bc-green--l    { border-color: $green--l }
+
+    // Gray Colors
+    // -------------------------
+
+    .bps-bc-black       { border-color: $black }
+    .bps-bc-black--d    { border-color: $black--d }
+    .bps-bc-black--l    { border-color: $black--l }
+
+    .bps-bc-silver      { border-color: $silver }
+    .bps-bc-silver--d   { border-color: $silver--d }
+    .bps-bc-silver--l   { border-color: $silver--l }
+
+    .bps-bc-smoke       { border-color: $smoke }
+    .bps-bc-smoke--d    { border-color: $smoke--d }
+    .bps-bc-smoke--l    { border-color: $smoke--l }
+
+    .bps-bc-snow        { border-color: $snow }
+    .bps-bc-snow--d     { border-color: $snow--d }
+    .bps-bc-snow--l     { border-color: $snow--l }
+
+    .bps-bc-white       { border-color: $white }
+
+    // Social Colors
+    // -------------------------
+
+    .bps-bc-twitter     { border-color: $twitter }
+    .bps-bc-facebook    { border-color: $facebook }
+    .bps-bc-instagram   { border-color: $instagram }
+}
+
+@include breakPoint(m) {
+    .bpm-bc-green       { border-color: $green }
+    .bpm-bc-green--d    { border-color: $green--d }
+    .bpm-bc-green--l    { border-color: $green--l }
+
+    // Gray Colors
+    // -------------------------
+
+    .bpm-bc-black       { border-color: $black }
+    .bpm-bc-black--d    { border-color: $black--d }
+    .bpm-bc-black--l    { border-color: $black--l }
+
+    .bpm-bc-silver      { border-color: $silver }
+    .bpm-bc-silver--d   { border-color: $silver--d }
+    .bpm-bc-silver--l   { border-color: $silver--l }
+
+    .bpm-bc-smoke       { border-color: $smoke }
+    .bpm-bc-smoke--d    { border-color: $smoke--d }
+    .bpm-bc-smoke--l    { border-color: $smoke--l }
+
+    .bpm-bc-snow        { border-color: $snow }
+    .bpm-bc-snow--d     { border-color: $snow--d }
+    .bpm-bc-snow--l     { border-color: $snow--l }
+
+    .bpm-bc-white       { border-color: $white }
+
+    // Social Colors
+    // -------------------------
+
+    .bpm-bc-twitter     { border-color: $twitter }
+    .bpm-bc-facebook    { border-color: $facebook }
+    .bpm-bc-instagram   { border-color: $instagram }
+}
+
+@include breakPoint(l) {
+    .bpl-bc-green       { border-color: $green }
+    .bpl-bc-green--d    { border-color: $green--d }
+    .bpl-bc-green--l    { border-color: $green--l }
+
+    // Gray Colors
+    // -------------------------
+
+    .bpl-bc-black       { border-color: $black }
+    .bpl-bc-black--d    { border-color: $black--d }
+    .bpl-bc-black--l    { border-color: $black--l }
+
+    .bpl-bc-silver      { border-color: $silver }
+    .bpl-bc-silver--d   { border-color: $silver--d }
+    .bpl-bc-silver--l   { border-color: $silver--l }
+
+    .bpl-bc-smoke       { border-color: $smoke }
+    .bpl-bc-smoke--d    { border-color: $smoke--d }
+    .bpl-bc-smoke--l    { border-color: $smoke--l }
+
+    .bpl-bc-snow        { border-color: $snow }
+    .bpl-bc-snow--d     { border-color: $snow--d }
+    .bpl-bc-snow--l     { border-color: $snow--l }
+
+    .bpl-bc-white       { border-color: $white }
+
+    // Social Colors
+    // -------------------------
+
+    .bpl-bc-twitter     { border-color: $twitter }
+    .bpl-bc-facebook    { border-color: $facebook }
+    .bpl-bc-instagram   { border-color: $instagram }
+}

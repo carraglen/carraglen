@@ -1,0 +1,30 @@
+/*
+ * Clear
+ * -------------------------
+ */
+
+.clear-none               { clear: none }
+.clear-left               { clear: left }
+.clear-right              { clear: right }
+.clear-both               { clear: both }
+
+@include breakPoint(s) {
+    .bps-clear-none       { clear: none }
+    .bps-clear-left       { clear: left }
+    .bps-clear-right      { clear: right }
+    .bps-clear-both       { clear: both }
+}
+
+@include breakPoint(m) {
+    .bpm-clear-none       { clear: none }
+    .bpm-clear-left       { clear: left }
+    .bpm-clear-right      { clear: right }
+    .bpm-clear-both       { clear: both }
+}
+
+@include breakPoint(l) {
+    .bpl-clear-none       { clear: none }
+    .bpl-clear-left       { clear: left }
+    .bpl-clear-right      { clear: right }
+    .bpl-clear-both       { clear: both }
+}

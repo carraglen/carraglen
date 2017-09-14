@@ -1,0 +1,268 @@
+//
+// Padding
+// -------------
+
+// Padding scale
+// -------------
+
+.padding-0              { padding: 0; }
+.paddingTop-0           { padding-top: 0; }
+.paddingRight-0         { padding-right: 0; }
+.paddingBottom-0        { padding-bottom: 0; }
+.paddingLeft-0          { padding-left: 0; }
+.paddingTopBottom-0     { padding-top: 0; padding-bottom: 0; }
+.paddingLeftRight-0     { padding-left: 0; padding-right: 0; }
+
+.padding-xxs             { padding: $spacing-xxs; }
+.paddingTop-xxs          { padding-top: $spacing-xxs; }
+.paddingRight-xxs        { padding-right: $spacing-xxs; }
+.paddingBottom-xxs       { padding-bottom: $spacing-xxs; }
+.paddingLeft-xxs         { padding-left: $spacing-xxs; }
+.paddingTopBottom-xxs    { padding-top: $spacing-xxs; padding-bottom: $spacing-xxs; }
+.paddingLeftRight-xxs    { padding-left: $spacing-xxs; padding-right: $spacing-xxs; }
+
+.padding-xs             { padding: $spacing-xs; }
+.paddingTop-xs          { padding-top: $spacing-xs; }
+.paddingRight-xs        { padding-right: $spacing-xs; }
+.paddingBottom-xs       { padding-bottom: $spacing-xs; }
+.paddingLeft-xs         { padding-left: $spacing-xs; }
+.paddingTopBottom-xs    { padding-top: $spacing-xs; padding-bottom: $spacing-xs; }
+.paddingLeftRight-xs    { padding-left: $spacing-xs; padding-right: $spacing-xs; }
+
+.padding-s              { padding: $spacing-s; }
+.paddingTop-s           { padding-top: $spacing-s; }
+.paddingRight-s         { padding-right: $spacing-s; }
+.paddingBottom-s        { padding-bottom: $spacing-s; }
+.paddingLeft-s          { padding-left: $spacing-s; }
+.paddingTopBottom-s     { padding-top: $spacing-s; padding-bottom: $spacing-s; }
+.paddingLeftRight-s     { padding-left: $spacing-s; padding-right: $spacing-s; }
+
+.padding-m              { padding: $spacing-m; }
+.paddingTop-m           { padding-top: $spacing-m; }
+.paddingRight-m         { padding-right: $spacing-m; }
+.paddingBottom-m        { padding-bottom: $spacing-m; }
+.paddingLeft-m          { padding-left: $spacing-m; }
+.paddingTopBottom-m     { padding-top: $spacing-m; padding-bottom: $spacing-m; }
+.paddingLeftRight-m     { padding-left: $spacing-m; padding-right: $spacing-m; }
+
+.padding-l              { padding: $spacing-l; }
+.paddingTop-l           { padding-top: $spacing-l; }
+.paddingRight-l         { padding-right: $spacing-l; }
+.paddingBottom-l        { padding-bottom: $spacing-l; }
+.paddingLeft-l          { padding-left: $spacing-l; }
+.paddingTopBottom-l     { padding-top: $spacing-l; padding-bottom: $spacing-l; }
+.paddingLeftRight-l     { padding-left: $spacing-l; padding-right: $spacing-l; }
+
+.padding-xl             { padding: $spacing-xl; }
+.paddingTop-xl          { padding-top: $spacing-xl; }
+.paddingRight-xl        { padding-right: $spacing-xl; }
+.paddingBottom-xl       { padding-bottom: $spacing-xl; }
+.paddingLeft-xl         { padding-left: $spacing-xl; }
+.paddingTopBottom-xl    { padding-top: $spacing-xl; padding-bottom: $spacing-xl; }
+.paddingLeftRight-xl    { padding-left: $spacing-xl; padding-right: $spacing-xl; }
+
+.padding-xxl            { padding: $spacing-xxl; }
+.paddingTop-xxl         { padding-top: $spacing-xxl; }
+.paddingRight-xxl       { padding-right: $spacing-xxl; }
+.paddingBottom-xxl      { padding-bottom: $spacing-xxl; }
+.paddingLeft-xxl        { padding-left: $spacing-xxl; }
+.paddingTopBottom-xxl   { padding-top: $spacing-xxl; padding-bottom: $spacing-xxl; }
+.paddingLeftRight-xxl   { padding-left: $spacing-xxl; padding-right: $spacing-xxl; }
+
+@include breakPoint(s) {
+    .bps-padding-0              { padding: 0; }
+    .bps-paddingTop-0           { padding-top: 0; }
+    .bps-paddingRight-0         { padding-right: 0; }
+    .bps-paddingBottom-0        { padding-bottom: 0; }
+    .bps-paddingLeft-0          { padding-left: 0; }
+    .bps-paddingTopBottom-0     { padding-top: 0; padding-bottom: 0; }
+    .bps-paddingLeftRight-0     { padding-left: 0; padding-right: 0; }
+
+    .bps-padding-xxs             { padding: $spacing-xxs; }
+    .bps-paddingTop-xxs          { padding-top: $spacing-xxs; }
+    .bps-paddingRight-xxs        { padding-right: $spacing-xxs; }
+    .bps-paddingBottom-xxs       { padding-bottom: $spacing-xxs; }
+    .bps-paddingLeft-xxs         { padding-left: $spacing-xxs; }
+    .bps-paddingTopBottom-xxs    { padding-top: $spacing-xxs; padding-bottom: $spacing-xxs; }
+    .bps-paddingLeftRight-xxs    { padding-left: $spacing-xxs; padding-right: $spacing-xxs; }
+
+    .bps-padding-xs             { padding: $spacing-xs; }
+    .bps-paddingTop-xs          { padding-top: $spacing-xs; }
+    .bps-paddingRight-xs        { padding-right: $spacing-xs; }
+    .bps-paddingBottom-xs       { padding-bottom: $spacing-xs; }
+    .bps-paddingLeft-xs         { padding-left: $spacing-xs; }
+    .bps-paddingTopBottom-xs    { padding-top: $spacing-xs; padding-bottom: $spacing-xs; }
+    .bps-paddingLeftRight-xs    { padding-left: $spacing-xs; padding-right: $spacing-xs; }
+
+    .bps-padding-s              { padding: $spacing-s; }
+    .bps-paddingTop-s           { padding-top: $spacing-s; }
+    .bps-paddingRight-s         { padding-right: $spacing-s; }
+    .bps-paddingBottom-s        { padding-bottom: $spacing-s; }
+    .bps-paddingLeft-s          { padding-left: $spacing-s; }
+    .bps-paddingTopBottom-s     { padding-top: $spacing-s; padding-bottom: $spacing-s; }
+    .bps-paddingLeftRight-s     { padding-left: $spacing-s; padding-right: $spacing-s; }
+
+    .bps-padding-m              { padding: $spacing-m; }
+    .bps-paddingTop-m           { padding-top: $spacing-m; }
+    .bps-paddingRight-m         { padding-right: $spacing-m; }
+    .bps-paddingBottom-m        { padding-bottom: $spacing-m; }
+    .bps-paddingLeft-m          { padding-left: $spacing-m; }
+    .bps-paddingTopBottom-m     { padding-top: $spacing-m; padding-bottom: $spacing-m; }
+    .bps-paddingLeftRight-m     { padding-left: $spacing-m; padding-right: $spacing-m; }
+
+    .bps-padding-l              { padding: $spacing-l; }
+    .bps-paddingTop-l           { padding-top: $spacing-l; }
+    .bps-paddingRight-l         { padding-right: $spacing-l; }
+    .bps-paddingBottom-l        { padding-bottom: $spacing-l; }
+    .bps-paddingLeft-l          { padding-left: $spacing-l; }
+    .bps-paddingTopBottom-l     { padding-top: $spacing-l; padding-bottom: $spacing-l; }
+    .bps-paddingLeftRight-l     { padding-left: $spacing-l; padding-right: $spacing-l; }
+
+    .bps-padding-xl             { padding: $spacing-xl; }
+    .bps-paddingTop-xl          { padding-top: $spacing-xl; }
+    .bps-paddingRight-xl        { padding-right: $spacing-xl; }
+    .bps-paddingBottom-xl       { padding-bottom: $spacing-xl; }
+    .bps-paddingLeft-xl         { padding-left: $spacing-xl; }
+    .bps-paddingTopBottom-xl    { padding-top: $spacing-xl; padding-bottom: $spacing-xl; }
+    .bps-paddingLeftRight-xl    { padding-left: $spacing-xl; padding-right: $spacing-xl; }
+
+    .bps-padding-xxl            { padding: $spacing-xxl; }
+    .bps-paddingTop-xxl         { padding-top: $spacing-xxl; }
+    .bps-paddingRight-xxl       { padding-right: $spacing-xxl; }
+    .bps-paddingBottom-xxl      { padding-bottom: $spacing-xxl; }
+    .bps-paddingLeft-xxl        { padding-left: $spacing-xxl; }
+    .bps-paddingTopBottom-xxl   { padding-top: $spacing-xxl; padding-bottom: $spacing-xxl; }
+    .bps-paddingLeftRight-xxl   { padding-left: $spacing-xxl; padding-right: $spacing-xxl; }
+}
+
+@include breakPoint(m) {
+    .bpm-padding-0              { padding: 0; }
+    .bpm-paddingTop-0           { padding-top: 0; }
+    .bpm-paddingRight-0         { padding-right: 0; }
+    .bpm-paddingBottom-0        { padding-bottom: 0; }
+    .bpm-paddingLeft-0          { padding-left: 0; }
+    .bpm-paddingTopBottom-0     { padding-top: 0; padding-bottom: 0; }
+    .bpm-paddingLeftRight-0     { padding-left: 0; padding-right: 0; }
+
+    .bpm-padding-xxs             { padding: $spacing-xxs; }
+    .bpm-paddingTop-xxs          { padding-top: $spacing-xxs; }
+    .bpm-paddingRight-xxs        { padding-right: $spacing-xxs; }
+    .bpm-paddingBottom-xxs       { padding-bottom: $spacing-xxs; }
+    .bpm-paddingLeft-xxs         { padding-left: $spacing-xxs; }
+    .bpm-paddingTopBottom-xxs    { padding-top: $spacing-xxs; padding-bottom: $spacing-xxs; }
+    .bpm-paddingLeftRight-xxs    { padding-left: $spacing-xxs; padding-right: $spacing-xxs; }
+
+    .bpm-padding-xs             { padding: $spacing-xs; }
+    .bpm-paddingTop-xs          { padding-top: $spacing-xs; }
+    .bpm-paddingRight-xs        { padding-right: $spacing-xs; }
+    .bpm-paddingBottom-xs       { padding-bottom: $spacing-xs; }
+    .bpm-paddingLeft-xs         { padding-left: $spacing-xs; }
+    .bpm-paddingTopBottom-xs    { padding-top: $spacing-xs; padding-bottom: $spacing-xs; }
+    .bpm-paddingLeftRight-xs    { padding-left: $spacing-xs; padding-right: $spacing-xs; }
+
+    .bpm-padding-s              { padding: $spacing-s; }
+    .bpm-paddingTop-s           { padding-top: $spacing-s; }
+    .bpm-paddingRight-s         { padding-right: $spacing-s; }
+    .bpm-paddingBottom-s        { padding-bottom: $spacing-s; }
+    .bpm-paddingLeft-s          { padding-left: $spacing-s; }
+    .bpm-paddingTopBottom-s     { padding-top: $spacing-s; padding-bottom: $spacing-s; }
+    .bpm-paddingLeftRight-s     { padding-left: $spacing-s; padding-right: $spacing-s; }
+
+    .bpm-padding-m              { padding: $spacing-m; }
+    .bpm-paddingTop-m           { padding-top: $spacing-m; }
+    .bpm-paddingRight-m         { padding-right: $spacing-m; }
+    .bpm-paddingBottom-m        { padding-bottom: $spacing-m; }
+    .bpm-paddingLeft-m          { padding-left: $spacing-m; }
+    .bpm-paddingTopBottom-m     { padding-top: $spacing-m; padding-bottom: $spacing-m; }
+    .bpm-paddingLeftRight-m     { padding-left: $spacing-m; padding-right: $spacing-m; }
+
+    .bpm-padding-l              { padding: $spacing-l; }
+    .bpm-paddingTop-l           { padding-top: $spacing-l; }
+    .bpm-paddingRight-l         { padding-right: $spacing-l; }
+    .bpm-paddingBottom-l        { padding-bottom: $spacing-l; }
+    .bpm-paddingLeft-l          { padding-left: $spacing-l; }
+    .bpm-paddingTopBottom-l     { padding-top: $spacing-l; padding-bottom: $spacing-l; }
+    .bpm-paddingLeftRight-l     { padding-left: $spacing-l; padding-right: $spacing-l; }
+
+    .bpm-padding-xl             { padding: $spacing-xl; }
+    .bpm-paddingTop-xl          { padding-top: $spacing-xl; }
+    .bpm-paddingRight-xl        { padding-right: $spacing-xl; }
+    .bpm-paddingBottom-xl       { padding-bottom: $spacing-xl; }
+    .bpm-paddingLeft-xl         { padding-left: $spacing-xl; }
+    .bpm-paddingTopBottom-xl    { padding-top: $spacing-xl; padding-bottom: $spacing-xl; }
+    .bpm-paddingLeftRight-xl    { padding-left: $spacing-xl; padding-right: $spacing-xl; }
+
+    .bpm-padding-xxl            { padding: $spacing-xxl; }
+    .bpm-paddingTop-xxl         { padding-top: $spacing-xxl; }
+    .bpm-paddingRight-xxl       { padding-right: $spacing-xxl; }
+    .bpm-paddingBottom-xxl      { padding-bottom: $spacing-xxl; }
+    .bpm-paddingLeft-xxl        { padding-left: $spacing-xxl; }
+    .bpm-paddingTopBottom-xxl   { padding-top: $spacing-xxl; padding-bottom: $spacing-xxl; }
+    .bpm-paddingLeftRight-xxl   { padding-left: $spacing-xxl; padding-right: $spacing-xxl; }
+}
+
+@include breakPoint(l) {
+    .bpl-padding-0              { padding: 0; }
+    .bpl-paddingTop-0           { padding-top: 0; }
+    .bpl-paddingRight-0         { padding-right: 0; }
+    .bpl-paddingBottom-0        { padding-bottom: 0; }
+    .bpl-paddingLeft-0          { padding-left: 0; }
+    .bpl-paddingTopBottom-0     { padding-top: 0; padding-bottom: 0; }
+    .bpl-paddingLeftRight-0     { padding-left: 0; padding-right: 0; }
+
+    .bpl-padding-xxs             { padding: $spacing-xxs; }
+    .bpl-paddingTop-xxs          { padding-top: $spacing-xxs; }
+    .bpl-paddingRight-xxs        { padding-right: $spacing-xxs; }
+    .bpl-paddingBottom-xxs       { padding-bottom: $spacing-xxs; }
+    .bpl-paddingLeft-xxs         { padding-left: $spacing-xxs; }
+    .bpl-paddingTopBottom-xxs    { padding-top: $spacing-xxs; padding-bottom: $spacing-xxs; }
+    .bpl-paddingLeftRight-xxs    { padding-left: $spacing-xxs; padding-right: $spacing-xxs; }
+
+    .bpl-padding-xs             { padding: $spacing-xs; }
+    .bpl-paddingTop-xs          { padding-top: $spacing-xs; }
+    .bpl-paddingRight-xs        { padding-right: $spacing-xs; }
+    .bpl-paddingBottom-xs       { padding-bottom: $spacing-xs; }
+    .bpl-paddingLeft-xs         { padding-left: $spacing-xs; }
+    .bpl-paddingTopBottom-xs    { padding-top: $spacing-xs; padding-bottom: $spacing-xs; }
+    .bpl-paddingLeftRight-xs    { padding-left: $spacing-xs; padding-right: $spacing-xs; }
+
+    .bpl-padding-s              { padding: $spacing-s; }
+    .bpl-paddingTop-s           { padding-top: $spacing-s; }
+    .bpl-paddingRight-s         { padding-right: $spacing-s; }
+    .bpl-paddingBottom-s        { padding-bottom: $spacing-s; }
+    .bpl-paddingLeft-s          { padding-left: $spacing-s; }
+    .bpl-paddingTopBottom-s     { padding-top: $spacing-s; padding-bottom: $spacing-s; }
+    .bpl-paddingLeftRight-s     { padding-left: $spacing-s; padding-right: $spacing-s; }
+
+    .bpl-padding-m              { padding: $spacing-m; }
+    .bpl-paddingTop-m           { padding-top: $spacing-m; }
+    .bpl-paddingRight-m         { padding-right: $spacing-m; }
+    .bpl-paddingBottom-m        { padding-bottom: $spacing-m; }
+    .bpl-paddingLeft-m          { padding-left: $spacing-m; }
+    .bpl-paddingTopBottom-m     { padding-top: $spacing-m; padding-bottom: $spacing-m; }
+    .bpl-paddingLeftRight-m     { padding-left: $spacing-m; padding-right: $spacing-m; }
+
+    .bpl-padding-l              { padding: $spacing-l; }
+    .bpl-paddingTop-l           { padding-top: $spacing-l; }
+    .bpl-paddingRight-l         { padding-right: $spacing-l; }
+    .bpl-paddingBottom-l        { padding-bottom: $spacing-l; }
+    .bpl-paddingLeft-l          { padding-left: $spacing-l; }
+    .bpl-paddingTopBottom-l     { padding-top: $spacing-l; padding-bottom: $spacing-l; }
+    .bpl-paddingLeftRight-l     { padding-left: $spacing-l; padding-right: $spacing-l; }
+
+    .bpl-padding-xl             { padding: $spacing-xl; }
+    .bpl-paddingTop-xl          { padding-top: $spacing-xl; }
+    .bpl-paddingRight-xl        { padding-right: $spacing-xl; }
+    .bpl-paddingBottom-xl       { padding-bottom: $spacing-xl; }
+    .bpl-paddingLeft-xl         { padding-left: $spacing-xl; }
+    .bpl-paddingTopBottom-xl    { padding-top: $spacing-xl; padding-bottom: $spacing-xl; }
+    .bpl-paddingLeftRight-xl    { padding-left: $spacing-xl; padding-right: $spacing-xl; }
+
+    .bpl-padding-xxl            { padding: $spacing-xxl; }
+    .bpl-paddingTop-xxl         { padding-top: $spacing-xxl; }
+    .bpl-paddingRight-xxl       { padding-right: $spacing-xxl; }
+    .bpl-paddingBottom-xxl      { padding-bottom: $spacing-xxl; }
+    .bpl-paddingLeft-xxl        { padding-left: $spacing-xxl; }
+    .bpl-paddingTopBottom-xxl   { padding-top: $spacing-xxl; padding-bottom: $spacing-xxl; }
+    .bpl-paddingLeftRight-xxl   { padding-left: $spacing-xxl; padding-right: $spacing-xxl; }
+}

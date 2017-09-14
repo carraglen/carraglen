@@ -1,0 +1,17 @@
+//
+// Transition Duration
+// -------------
+
+// Legend
+// -------------
+
+// l = long
+// m = medium
+// s = short
+
+.transitionDuration-xxl { transition-duration: $transitionDuration-xxl; }
+.transitionDuration-xl  { transition-duration: $transitionDuration-xl; }
+.transitionDuration-l   { transition-duration: $transitionDuration-l; }
+.transitionDuration-m   { transition-duration: $transitionDuration-m; }
+.transitionDuration-s   { transition-duration: $transitionDuration-s; }
+.transitionDuration-0   { transition-duration: $transitionDuration-0; }

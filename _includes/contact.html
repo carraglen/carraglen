@@ -1,0 +1,36 @@
+{%  include sectionHeading.html
+    firstHeading="General Enquiries"
+    subheading="Interested in receiving a quote? Need to discuss an upcoming project?"
+%}
+
+<section class="position-relative pageWrap pageWrap--s paddingBottom-l bps-paddingBottom-xl bpm-paddingBottom-xxl">
+    <div class="bpm-display-tableCell bpm-width-50 va-top marginTop-xl bpm-marginTop-0">
+        <form target="_blank" action="https://formspree.io/john@carraglen.com" method="post">
+            <div class="marginBottom-m">
+                {% include input.html class="width-100" name="name" placeholder="Your full name" %}
+            </div>
+
+            <div class="marginBottom-m">
+                {% include input.html class="width-100" name="email" placeholder="Your email address" %}
+            </div>
+
+            <div class="marginBottom-m">
+                {% include input.html class="width-100" name="phone" placeholder="Your phone number" %}
+            </div>
+
+            <div class="marginBottom-m">
+                {% include textarea.html class="width-100" name="message" placeholder="Your message" %}
+            </div>
+
+            <div class="grid grid--2 grid--m">
+                <div>
+                    {% include button.html title="Reset Form" type="reset" class="width-100" %}
+                </div>
+
+                <div>
+                    {% include button.html title="Submit Form" name="submit" type="submit" class="width-100" %}
+                </div>
+            </div>
+        </form>
+    </div>
+</section>

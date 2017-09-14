@@ -1,0 +1,22 @@
+/*
+ * Word wrap
+ * -------------------------
+ */
+
+.ww-normal               { word-wrap: normal; }
+.ww-breakWord            { word-wrap: break-word; }
+
+@include breakPoint(s) {
+    .bps-ww-normal       { word-wrap: normal; }
+    .bps-ww-breakWord    { word-wrap: break-word; }
+}
+
+@include breakPoint(m) {
+    .bpm-ww-normal       { word-wrap: normal; }
+    .bpm-ww-breakWord    { word-wrap: break-word; }
+}
+
+@include breakPoint(l) {
+    .bpl-ww-normal       { word-wrap: normal; }
+    .bpl-ww-breakWord    { word-wrap: break-word; }
+}

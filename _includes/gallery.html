@@ -1,0 +1,21 @@
+{%  include sectionHeading.html
+    firstHeading="Snapshots"
+    secondHeading="images"
+    subheading="A gallery of completed projects and previous work we have done. Click the images to enlarge.    "
+%}
+
+<div class="pageWrap pageWrap--l paddingBottom-l bps-paddingBottom-xl bpm-paddingBottom-xxl position-relative">
+    <div class="grid grid--1 grid--l bps-grid--2 bpm-grid--3">
+        {% for image in page.images %}
+            <div class="gallery-image pe-none bps-pe-all">
+                <div class="aspectRatio aspectRatio--75">
+                    <div class="aspectRatio-content br-m cursor-pointer">
+                        <img class="width-100 height-100 br-m of-cover" src="{{ image.imagePath | prepend: '/uploads/' | prepend: site.baseurl | prepend: site.url }}" />
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% include upsell.html %}

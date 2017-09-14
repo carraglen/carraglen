@@ -1,0 +1,42 @@
+<div class="paddingTop-xxl">
+    <div class="position-relative padding-m bpl-padding-l paddingTop-xl bg-snow bw-0 bwb-3 bc-green bs-solid btlr-m">
+        <div class="c-black fs-m bpl-fs-xl lh-l fw-3">
+            {% if page.address %}
+                <div class="marginBottom-s">
+                    <strong class="fw-6">Address:</strong>
+                    {{ page.address }}
+                </div>
+            {% endif %}
+
+            {% if page.architect %}
+                <div class="marginBottom-s">
+                    <strong class="fw-6">Architect:</strong>
+                    {{ page.architect }}
+                </div>
+            {% endif %}
+
+            {% if page.client %}
+                <div>
+                    <strong class="fw-6">Client:</strong>
+                    {{ page.client }}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+
+    {% if page.images %}
+        <div class="paddingTop-l">
+            <div class="grid grid--2 grid--m"?>
+                {% for image in page.images %}
+                    <div class="gallery-image pe-none bps-pe-all">
+                        <div class="aspectRatio aspectRatio--75">
+                            <div class="aspectRatio-content br-m cursor-pointer">
+                                <img class="width-100 height-100 br-m of-cover" src="{{ image.imagePath | prepend: '/uploads/' | prepend: site.baseurl | prepend: site.url }}" />
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+</div>

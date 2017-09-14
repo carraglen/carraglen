@@ -1,0 +1,38 @@
+/*
+ * Appearance
+ * -------------------------
+ */
+
+.appearance-none            { appearance: none }
+.appearance-normal          { appearance: normal }
+.appearance-window          { appearance: window }
+.appearance-button          { appearance: button }
+.appearance-menu            { appearance: menu }
+.appearance-field           { appearance: field }
+
+@include breakPoint(s) {
+    .bps-appearance-none    { appearance: none }
+    .bps-appearance-normal  { appearance: normal }
+    .bps-appearance-window  { appearance: window }
+    .bps-appearance-button  { appearance: button }
+    .bps-appearance-menu    { appearance: menu }
+    .bps-appearance-field   { appearance: field }
+}
+
+@include breakPoint(m) {
+    .bpm-appearance-none    { appearance: none }
+    .bpm-appearance-normal  { appearance: normal }
+    .bpm-appearance-window  { appearance: window }
+    .bpm-appearance-button  { appearance: button }
+    .bpm-appearance-menu    { appearance: menu }
+    .bpm-appearance-field   { appearance: field }
+}
+
+@include breakPoint(l) {
+    .bpl-appearance-none    { appearance: none }
+    .bpl-appearance-normal  { appearance: normal }
+    .bpl-appearance-window  { appearance: window }
+    .bpl-appearance-button  { appearance: button }
+    .bpl-appearance-menu    { appearance: menu }
+    .bpl-appearance-field   { appearance: field }
+}

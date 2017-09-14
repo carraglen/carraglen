@@ -1,0 +1,81 @@
+//
+// Global variables
+// -------------------------
+
+// A set of global variables for defining values
+// that are shared across multiple components.
+
+// Buttons and inputs
+// -------------------------
+
+$control-xl: 60px;
+$control-l: 50px;
+$control-m: 40px;
+$control-s: 30px;
+$control-xs: 20px;
+
+// Spacing
+// -------------------------
+
+$spacing-xxl: 5rem;
+$spacing-xl: 2.5rem;
+$spacing-l: 1.875rem;
+$spacing-m: 1.25rem;
+$spacing-s: 0.9375rem;
+$spacing-xs: 0.625rem;
+$spacing-xxs: 0.3125rem;
+
+// Break points
+// -------------------------
+
+$breakpoint-s: 30rem;
+$breakpoint-m: 48rem;
+$breakpoint-l: 73.75rem;
+$breakpoint-xl: 82.5rem;
+
+// Border radius
+// -------------------------
+
+$borderRadius-m: 6px;
+
+// Letter spacing
+// -------------------------
+
+$letterSpacing-m: -0.5px;
+
+// Font size
+// -------------------------
+
+$fs-xxxl: 2.375rem;
+$fs-xxl:  1.625rem;
+$fs-xl:   1.25rem;
+$fs-l:    1.125rem;
+$fs-m:    1rem;
+$fs-s:    0.875rem;
+$fs-xs:   0.75rem;
+
+// Line height
+// -------------------------
+
+$lineHeight-l: 1.8;
+$lineHeight-m: 1.3;
+$lineHeight-s: 1;
+
+// Transition timing function
+// -------------------------
+
+$transitionTimingFunction-cb--scaleUp: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+$transitionTimingFunction-cb--scaleOut: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+$transitionTimingFunction-cb--scaleIn: cubic-bezier(0.000, 0.890, 0.440, 1.000);
+$transitionTimingFunction-cv-easeOutCircular: cubic-bezier(0.075, 0.820, 0.165, 1.000);
+$transitionTimingFunction-cv-easeInOutBack: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+
+// Transition duration
+// -------------------------
+
+$transitionDuration-xxl: 700ms;
+$transitionDuration-xl: 500ms;
+$transitionDuration-l: 300ms;
+$transitionDuration-m: 150ms;
+$transitionDuration-s: 80ms;
+$transitionDuration-0: 0;

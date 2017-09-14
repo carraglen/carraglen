@@ -1,0 +1,46 @@
+/*
+ * Vertical align
+ * -------------------------
+ */
+
+.va-baseline            { vertical-align: baseline; }
+.va-sub                 { vertical-align: sub; }
+.va-super               { vertical-align: super; }
+.va-top                 { vertical-align: top; }
+.va-textTop             { vertical-align: text-top; }
+.va-middle              { vertical-align: middle; }
+.va-bottom              { vertical-align: bottom; }
+.va-textBottom          { vertical-align: text-bottom; }
+
+@include breakPoint(s) {
+    .bps-va-baseline    { vertical-align: baseline; }
+    .bps-va-sub         { vertical-align: sub; }
+    .bps-va-super       { vertical-align: super; }
+    .bps-va-top         { vertical-align: top; }
+    .bps-va-textTop     { vertical-align: text-top; }
+    .bps-va-middle      { vertical-align: middle; }
+    .bps-va-bottom      { vertical-align: bottom; }
+    .bps-va-textBottom  { vertical-align: text-bottom; }
+}
+
+@include breakPoint(m) {
+    .bpm-va-baseline    { vertical-align: baseline; }
+    .bpm-va-sub         { vertical-align: sub; }
+    .bpm-va-super       { vertical-align: super; }
+    .bpm-va-top         { vertical-align: top; }
+    .bpm-va-textTop     { vertical-align: text-top; }
+    .bpm-va-middle      { vertical-align: middle; }
+    .bpm-va-bottom      { vertical-align: bottom; }
+    .bpm-va-textBottom  { vertical-align: text-bottom; }
+}
+
+@include breakPoint(l) {
+    .bpl-va-baseline    { vertical-align: baseline; }
+    .bpl-va-sub         { vertical-align: sub; }
+    .bpl-va-super       { vertical-align: super; }
+    .bpl-va-top         { vertical-align: top; }
+    .bpl-va-textTop     { vertical-align: text-top; }
+    .bpl-va-middle      { vertical-align: middle; }
+    .bpl-va-bottom      { vertical-align: bottom; }
+    .bpl-va-textBottom  { vertical-align: text-bottom; }
+}

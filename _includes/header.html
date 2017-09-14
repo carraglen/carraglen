@@ -1,0 +1,63 @@
+<div class="bg width-100 position-relative bs-cover bp-CC {% if include.is_home %}height-90 bpm-height-80{% else %}height-40{% endif %}" style="background-image: url({{ include.headerImg | prepend: '/uploads/' | prepend: site.baseurl | prepend: site.url }})">
+    <div class="pinAll position-absolute bg-black opacity-60"></div>
+
+    <div class="pageWrap pageWrap--l height-100 display-table position-relative">
+        <div class="width-100 display-tableCell va-middle">
+            {% if include.is_home %}
+                <div class="marginBottom-s bps-marginBottom-m bpm-marginBottom-l" style="max-width: 500px">
+                    <div class="textShadow-dark lh-m fw-6 fs-xl bps-fs-xxl bpm-fs-xxxl bpm-ls-m">
+                        <span class="c-white">
+                            Carraglen delivers creative, cost-efficient
+                        </span>
+
+                        <span class="c-white font-playfair">
+                            &amp;
+                        </span>
+
+                        <span class="c-white">
+                            robust
+                        </span>
+
+                        <span class="c-green">
+                            construction solutions
+                        </span>
+                    </div>
+                </div>
+
+                <div class="marginBottom-m bps-marginBottom-l bpm-marginBottom-xl" style="max-width: 560px">
+                    <span class="c-white fs-m bps-fs-l bpm-fs-xl lh-l fw-3 textShadow-dark">
+                        <span class="opacity-70">
+                            We are a dedicated and professional construction partner based in South West London with over 15 years of experience in the construction industry in Ireland and the UK.
+                        </span>
+                    </span>
+                </div>
+
+                <div class="inline">
+                    <div class="display-block marginRight-s bpm-marginRight-m">
+                        {% include button.html title="View our work" style="flat" href="/portfolio" %}
+                    </div>
+
+                    <div>
+                        {% include button.html title="Read about us" style="ghost-reversed" href="/about" %}
+                    </div>
+                </div>
+            {% else %}
+                <div class="ta-center">
+                    <div class="textShadow-dark c-white lh-m fw-6 fs-xl bps-fs-xxl bpm-fs-xxxl bpm-ls-m">
+                        {{ include.title }}
+                    </div>
+
+                    {% if page.address %}
+                        <div class="marginTop-m">
+                            <span class="c-white fs-m bps-fs-l bpm-fs-xl lh-l fw-3 textShadow-dark">
+                                <span class="opacity-70">
+                                    {{ page.address }}
+                                </span>
+                            </span>
+                        </div>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+{% assign pages_list = site.pages | sort:"name" %}
+
+<header class="js-header position-fixed pinTL zi-1 width-100 height-10">
+    <div class="pageWrap pageWrap--l height-100">
+        <div class="width-100 display-table height-100">
+            <div class="width-20 display-tableCell va-middle">
+                <a href="/">
+                    {% include logo.html %}
+                </a>
+            </div>
+
+            <div class="width-80 display-tableCell va-middle ta-right">
+                <div class="inline display-none bpm-display-block">
+                    {% include navLinks.html header="true" %}
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="js-nav position-fixed pinAll bg-white zi-2 concealed">
+    <div class="display-table width-100 height-100">
+        <div class="display-tableCell va-middle">
+            {% include navLinks.html %}
+        </div>
+    </div>
+</div>
+
+<div class="js-nav-button position-fixed pinTR zi-2 marginTop-xxs paddingTopBottom-l paddingLeftRight-m bpm-display-none">
+    <div class="nav-toggle"></div>
+</div>

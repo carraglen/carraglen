@@ -1,0 +1,268 @@
+//
+// Margin
+// -------------
+
+// Margin scale
+// -------------
+
+.margin-0           { margin: 0; }
+.marginTop-0        { margin-top: 0; }
+.marginRight-0      { margin-right: 0; }
+.marginBottom-0     { margin-bottom: 0; }
+.marginLeft-0       { margin-left: 0; }
+.marginTopBottom-0  { margin-top: 0; margin-bottom: 0; }
+.marginLeftRight-0  { margin-left: 0; margin-right: 0; }
+
+.margin-xxs          { margin: $spacing-xxs; }
+.marginTop-xxs       { margin-top: $spacing-xxs; }
+.marginRight-xxs     { margin-right: $spacing-xxs; }
+.marginBottom-xxs    { margin-bottom: $spacing-xxs; }
+.marginLeft-xxs      { margin-left: $spacing-xxs; }
+.marginTopBottom-xxs { margin-top: $spacing-xxs; margin-bottom: $spacing-xxs; }
+.marginLeftRight-xxs  { margin-left: $spacing-xxs; margin-right: $spacing-xxs; }
+
+.margin-xs          { margin: $spacing-xs; }
+.marginTop-xs       { margin-top: $spacing-xs; }
+.marginRight-xs     { margin-right: $spacing-xs; }
+.marginBottom-xs    { margin-bottom: $spacing-xs; }
+.marginLeft-xs      { margin-left: $spacing-xs; }
+.marginTopBottom-xs { margin-top: $spacing-xs; margin-bottom: $spacing-xs; }
+.marginLeftRight-xs  { margin-left: $spacing-xs; margin-right: $spacing-xs; }
+
+.margin-s           { margin: $spacing-s; }
+.marginTop-s        { margin-top: $spacing-s; }
+.marginRight-s      { margin-right: $spacing-s; }
+.marginBottom-s     { margin-bottom: $spacing-s; }
+.marginLeft-s       { margin-left: $spacing-s; }
+.marginTopBottom-s  { margin-top: $spacing-s; margin-bottom: $spacing-s; }
+.marginLeftRight-s  { margin-left: $spacing-s; margin-right: $spacing-s; }
+
+.margin-m           { margin: $spacing-m; }
+.marginTop-m        { margin-top: $spacing-m; }
+.marginRight-m      { margin-right: $spacing-m; }
+.marginBottom-m     { margin-bottom: $spacing-m; }
+.marginLeft-m       { margin-left: $spacing-m; }
+.marginTopBottom-m  { margin-top: $spacing-m; margin-bottom: $spacing-m; }
+.marginLeftRight-m  { margin-left: $spacing-m; margin-right: $spacing-m; }
+
+.margin-l           { margin: $spacing-l; }
+.marginTop-l        { margin-top: $spacing-l; }
+.marginRight-l      { margin-right: $spacing-l; }
+.marginBottom-l     { margin-bottom: $spacing-l; }
+.marginLeft-l       { margin-left: $spacing-l; }
+.marginTopBottom-l  { margin-top: $spacing-l; margin-bottom: $spacing-l; }
+.marginLeftRight-l  { margin-left: $spacing-l; margin-right: $spacing-l; }
+
+.margin-xl          { margin: $spacing-xl; }
+.marginTop-xl       { margin-top: $spacing-xl; }
+.marginRight-xl     { margin-right: $spacing-xl; }
+.marginBottom-xl    { margin-bottom: $spacing-xl; }
+.marginLeft-xl      { margin-left: $spacing-xl; }
+.marginTopBottom-xl { margin-top: $spacing-xl; margin-bottom: $spacing-xl; }
+.marginLeftRight-xl { margin-left: $spacing-xl; margin-right: $spacing-xl; }
+
+.margin-xxl          { margin: $spacing-xxl; }
+.marginTop-xxl       { margin-top: $spacing-xxl; }
+.marginRight-xxl     { margin-right: $spacing-xxl; }
+.marginBottom-xxl    { margin-bottom: $spacing-xxl; }
+.marginLeft-xxl      { margin-left: $spacing-xxl; }
+.marginTopBottom-xxl { margin-top: $spacing-xxl; margin-bottom: $spacing-xxl; }
+.marginLeftRight-xxl { margin-left: $spacing-xxl; margin-right: $spacing-xxl; }
+
+@include breakPoint(s) {
+    .bps-margin-0           { margin: 0; }
+    .bps-marginTop-0        { margin-top: 0; }
+    .bps-marginRight-0      { margin-right: 0; }
+    .bps-marginBottom-0     { margin-bottom: 0; }
+    .bps-marginLeft-0       { margin-left: 0; }
+    .bps-marginTopBottom-0  { margin-top: 0; margin-bottom: 0; }
+    .bps-marginLeftRight-0  { margin-left: 0; margin-right: 0; }
+
+    .bps-margin-xxs          { margin: $spacing-xxs; }
+    .bps-marginTop-xxs       { margin-top: $spacing-xxs; }
+    .bps-marginRight-xxs     { margin-right: $spacing-xxs; }
+    .bps-marginBottom-xxs    { margin-bottom: $spacing-xxs; }
+    .bps-marginLeft-xxs      { margin-left: $spacing-xxs; }
+    .bps-marginTopBottom-xxs { margin-top: $spacing-xxs; margin-bottom: $spacing-xxs; }
+    .bps-marginLeftRight-xxs  { margin-left: $spacing-xxs; margin-right: $spacing-xxs; }
+
+    .bps-margin-xs          { margin: $spacing-xs; }
+    .bps-marginTop-xs       { margin-top: $spacing-xs; }
+    .bps-marginRight-xs     { margin-right: $spacing-xs; }
+    .bps-marginBottom-xs    { margin-bottom: $spacing-xs; }
+    .bps-marginLeft-xs      { margin-left: $spacing-xs; }
+    .bps-marginTopBottom-xs { margin-top: $spacing-xs; margin-bottom: $spacing-xs; }
+    .bps-marginLeftRight-xs { margin-left: $spacing-xs; margin-right: $spacing-xs; }
+
+    .bps-margin-s           { margin: $spacing-s; }
+    .bps-marginTop-s        { margin-top: $spacing-s; }
+    .bps-marginRight-s      { margin-right: $spacing-s; }
+    .bps-marginBottom-s     { margin-bottom: $spacing-s; }
+    .bps-marginLeft-s       { margin-left: $spacing-s; }
+    .bps-marginTopBottom-s  { margin-top: $spacing-s; margin-bottom: $spacing-s; }
+    .bps-marginLeftRight-s  { margin-left: $spacing-xs; margin-right: $spacing-xs; }
+
+    .bps-margin-m           { margin: $spacing-m; }
+    .bps-marginTop-m        { margin-top: $spacing-m; }
+    .bps-marginRight-m      { margin-right: $spacing-m; }
+    .bps-marginBottom-m     { margin-bottom: $spacing-m; }
+    .bps-marginLeft-m       { margin-left: $spacing-m; }
+    .bps-marginTopBottom-m  { margin-top: $spacing-m; margin-bottom: $spacing-m; }
+    .bps-marginLeftRight-m  { margin-left: $spacing-m; margin-right: $spacing-m; }
+
+    .bps-margin-l           { margin: $spacing-l; }
+    .bps-marginTop-l        { margin-top: $spacing-l; }
+    .bps-marginRight-l      { margin-right: $spacing-l; }
+    .bps-marginBottom-l     { margin-bottom: $spacing-l; }
+    .bps-marginLeft-l       { margin-left: $spacing-l; }
+    .bps-marginTopBottom-l  { margin-top: $spacing-l; margin-bottom: $spacing-l; }
+    .bps-marginLeftRight-l  { margin-left: $spacing-l; margin-right: $spacing-l; }
+
+    .bps-margin-xl          { margin: $spacing-xl; }
+    .bps-marginTop-xl       { margin-top: $spacing-xl; }
+    .bps-marginRight-xl     { margin-right: $spacing-xl; }
+    .bps-marginBottom-xl    { margin-bottom: $spacing-xl; }
+    .bps-marginLeft-xl      { margin-left: $spacing-xl; }
+    .bps-marginTopBottom-xl { margin-top: $spacing-xl; margin-bottom: $spacing-xl; }
+    .bps-marginLeftRight-xl { margin-left: $spacing-xl; margin-right: $spacing-xl; }
+
+    .bps-margin-xxl          { margin: $spacing-xxl; }
+    .bps-marginTop-xxl       { margin-top: $spacing-xxl; }
+    .bps-marginRight-xxl     { margin-right: $spacing-xxl; }
+    .bps-marginBottom-xxl    { margin-bottom: $spacing-xxl; }
+    .bps-marginLeft-xxl      { margin-left: $spacing-xxl; }
+    .bps-marginTopBottom-xxl { margin-top: $spacing-xxl; margin-bottom: $spacing-xxl; }
+    .bps-marginLeftRight-xxl { margin-left: $spacing-xxl; margin-right: $spacing-xxl; }
+}
+
+@include breakPoint(m) {
+    .bpm-margin-0           { margin: 0; }
+    .bpm-marginTop-0        { margin-top: 0; }
+    .bpm-marginRight-0      { margin-right: 0; }
+    .bpm-marginBottom-0     { margin-bottom: 0; }
+    .bpm-marginLeft-0       { margin-left: 0; }
+    .bpm-marginTopBottom-0  { margin-top: 0; margin-bottom: 0; }
+    .bpm-marginLeftRight-0  { margin-left: 0; margin-right: 0; }
+
+    .bpm-margin-xxs          { margin: $spacing-xxs; }
+    .bpm-marginTop-xxs       { margin-top: $spacing-xxs; }
+    .bpm-marginRight-xxs     { margin-right: $spacing-xxs; }
+    .bpm-marginBottom-xxs    { margin-bottom: $spacing-xxs; }
+    .bpm-marginLeft-xxs      { margin-left: $spacing-xxs; }
+    .bpm-marginTopBottom-xxs { margin-top: $spacing-xxs; margin-bottom: $spacing-xxs; }
+    .bpm-marginLeftRight-xxs  { margin-left: $spacing-xxs; margin-right: $spacing-xxs; }
+
+    .bpm-margin-xs          { margin: $spacing-xs; }
+    .bpm-marginTop-xs       { margin-top: $spacing-xs; }
+    .bpm-marginRight-xs     { margin-right: $spacing-xs; }
+    .bpm-marginBottom-xs    { margin-bottom: $spacing-xs; }
+    .bpm-marginLeft-xs      { margin-left: $spacing-xs; }
+    .bpm-marginTopBottom-xs { margin-top: $spacing-xs; margin-bottom: $spacing-xs; }
+    .bpm-marginLeftRight-xs { margin-left: $spacing-xs; margin-right: $spacing-xs; }
+
+    .bpm-margin-s           { margin: $spacing-s; }
+    .bpm-marginTop-s        { margin-top: $spacing-s; }
+    .bpm-marginRight-s      { margin-right: $spacing-s; }
+    .bpm-marginBottom-s     { margin-bottom: $spacing-s; }
+    .bpm-marginLeft-s       { margin-left: $spacing-s; }
+    .bpm-marginTopBottom-s  { margin-top: $spacing-s; margin-bottom: $spacing-s; }
+    .bpm-marginLeftRight-s  { margin-left: $spacing-s; margin-right: $spacing-s; }
+
+    .bpm-margin-m           { margin: $spacing-m; }
+    .bpm-marginTop-m        { margin-top: $spacing-m; }
+    .bpm-marginRight-m      { margin-right: $spacing-m; }
+    .bpm-marginBottom-m     { margin-bottom: $spacing-m; }
+    .bpm-marginLeft-m       { margin-left: $spacing-m; }
+    .bpm-marginTopBottom-m  { margin-top: $spacing-m; margin-bottom: $spacing-m; }
+    .bpm-marginLeftRight-m  { margin-left: $spacing-m; margin-right: $spacing-m; }
+
+    .bpm-margin-l           { margin: $spacing-l; }
+    .bpm-marginTop-l        { margin-top: $spacing-l; }
+    .bpm-marginRight-l      { margin-right: $spacing-l; }
+    .bpm-marginBottom-l     { margin-bottom: $spacing-l; }
+    .bpm-marginLeft-l       { margin-left: $spacing-l; }
+    .bpm-marginTopBottom-l  { margin-top: $spacing-l; margin-bottom: $spacing-l; }
+    .bpm-marginLeftRight-l  { margin-left: $spacing-l; margin-right: $spacing-l; }
+
+    .bpm-margin-xl          { margin: $spacing-xl; }
+    .bpm-marginTop-xl       { margin-top: $spacing-xl; }
+    .bpm-marginRight-xl     { margin-right: $spacing-xl; }
+    .bpm-marginBottom-xl    { margin-bottom: $spacing-xl; }
+    .bpm-marginLeft-xl      { margin-left: $spacing-xl; }
+    .bpm-marginTopBottom-xl { margin-top: $spacing-xl; margin-bottom: $spacing-xl; }
+    .bpm-marginLeftRight-xl { margin-left: $spacing-xl; margin-right: $spacing-xl; }
+
+    .bpm-margin-xxl          { margin: $spacing-xxl; }
+    .bpm-marginTop-xxl       { margin-top: $spacing-xxl; }
+    .bpm-marginRight-xxl     { margin-right: $spacing-xxl; }
+    .bpm-marginBottom-xxl    { margin-bottom: $spacing-xxl; }
+    .bpm-marginLeft-xxl      { margin-left: $spacing-xxl; }
+    .bpm-marginTopBottom-xxl { margin-top: $spacing-xxl; margin-bottom: $spacing-xxl; }
+    .bpm-marginLeftRight-xxl { margin-left: $spacing-xxl; margin-right: $spacing-xxl; }
+}
+
+@include breakPoint(l) {
+    .bpl-margin-0           { margin: 0; }
+    .bpl-marginTop-0        { margin-top: 0; }
+    .bpl-marginRight-0      { margin-right: 0; }
+    .bpl-marginBottom-0     { margin-bottom: 0; }
+    .bpl-marginLeft-0       { margin-left: 0; }
+    .bpl-marginTopBottom-0  { margin-top: 0; margin-bottom: 0; }
+    .bpl-marginLeftRight-0  { margin-left: 0; margin-right: 0; }
+
+    .bpl-margin-xxs          { margin: $spacing-xxs; }
+    .bpl-marginTop-xxs       { margin-top: $spacing-xxs; }
+    .bpl-marginRight-xxs     { margin-right: $spacing-xxs; }
+    .bpl-marginBottom-xxs    { margin-bottom: $spacing-xxs; }
+    .bpl-marginLeft-xxs      { margin-left: $spacing-xxs; }
+    .bpl-marginTopBottom-xxs { margin-top: $spacing-xxs; margin-bottom: $spacing-xxs; }
+    .bpl-marginLeftRight-xxs  { margin-left: $spacing-xxs; margin-right: $spacing-xxs; }
+
+    .bpl-margin-xs          { margin: $spacing-xs; }
+    .bpl-marginTop-xs       { margin-top: $spacing-xs; }
+    .bpl-marginRight-xs     { margin-right: $spacing-xs; }
+    .bpl-marginBottom-xs    { margin-bottom: $spacing-xs; }
+    .bpl-marginLeft-xs      { margin-left: $spacing-xs; }
+    .bpl-marginTopBottom-xs { margin-top: $spacing-xs; margin-bottom: $spacing-xs; }
+    .bpl-marginLeftRight-xs { margin-left: $spacing-xs; margin-right: $spacing-xs; }
+
+    .bpl-margin-s           { margin: $spacing-s; }
+    .bpl-marginTop-s        { margin-top: $spacing-s; }
+    .bpl-marginRight-s      { margin-right: $spacing-s; }
+    .bpl-marginBottom-s     { margin-bottom: $spacing-s; }
+    .bpl-marginLeft-s       { margin-left: $spacing-s; }
+    .bpl-marginTopBottom-s  { margin-top: $spacing-s; margin-bottom: $spacing-s; }
+    .bpl-marginLeftRight-s  { margin-left: $spacing-s; margin-right: $spacing-s; }
+
+    .bpl-margin-m           { margin: $spacing-m; }
+    .bpl-marginTop-m        { margin-top: $spacing-m; }
+    .bpl-marginRight-m      { margin-right: $spacing-m; }
+    .bpl-marginBottom-m     { margin-bottom: $spacing-m; }
+    .bpl-marginLeft-m       { margin-left: $spacing-m; }
+    .bpl-marginTopBottom-m  { margin-top: $spacing-m; margin-bottom: $spacing-m; }
+    .bpl-marginLeftRight-m  { margin-left: $spacing-m; margin-right: $spacing-m; }
+
+    .bpl-margin-l           { margin: $spacing-l; }
+    .bpl-marginTop-l        { margin-top: $spacing-l; }
+    .bpl-marginRight-l      { margin-right: $spacing-l; }
+    .bpl-marginBottom-l     { margin-bottom: $spacing-l; }
+    .bpl-marginLeft-l       { margin-left: $spacing-l; }
+    .bpl-marginTopBottom-l  { margin-top: $spacing-l; margin-bottom: $spacing-l; }
+    .bpl-marginLeftRight-l  { margin-left: $spacing-l; margin-right: $spacing-l; }
+
+    .bpl-margin-xl          { margin: $spacing-xl; }
+    .bpl-marginTop-xl       { margin-top: $spacing-xl; }
+    .bpl-marginRight-xl     { margin-right: $spacing-xl; }
+    .bpl-marginBottom-xl    { margin-bottom: $spacing-xl; }
+    .bpl-marginLeft-xl      { margin-left: $spacing-xl; }
+    .bpl-marginTopBottom-xl { margin-top: $spacing-xl; margin-bottom: $spacing-xl; }
+    .bpl-marginLeftRight-xl { margin-left: $spacing-xl; margin-right: $spacing-xl; }
+
+    .bpl-margin-xxl          { margin: $spacing-xxl; }
+    .bpl-marginTop-xxl       { margin-top: $spacing-xxl; }
+    .bpl-marginRight-xxl     { margin-right: $spacing-xxl; }
+    .bpl-marginBottom-xxl    { margin-bottom: $spacing-xxl; }
+    .bpl-marginLeft-xxl      { margin-left: $spacing-xxl; }
+    .bpl-marginTopBottom-xxl { margin-top: $spacing-xxl; margin-bottom: $spacing-xxl; }
+    .bpl-marginLeftRight-xxl { margin-left: $spacing-xxl; margin-right: $spacing-xxl; }
+}

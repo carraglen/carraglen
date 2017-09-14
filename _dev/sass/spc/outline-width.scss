@@ -1,0 +1,22 @@
+/*
+ * Outline width
+ * -------------------------
+ */
+
+.ow-1         { outline-width: 1px }
+.ow-2         { outline-width: 2px }
+
+@include breakPoint(s) {
+    .bps-ow-1 { outline-width: 1px }
+    .bps-ow-2 { outline-width: 2px }
+}
+
+@include breakPoint(m) {
+    .bpm-ow-1 { outline-width: 1px }
+    .bpm-ow-2 { outline-width: 2px }
+}
+
+@include breakPoint(l) {
+    .bpl-ow-1 { outline-width: 1px }
+    .bpl-ow-2 { outline-width: 2px }
+}

@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+    {% include head.html %}
+    <body class="position-relative">
+        <div class="position-fixed pinAll bg-white boxShadow-fly" style="max-width: 1600px"></div>
+        {% include nav.html %}
+            {{ content }}
+        {% include footer.html %}
+    </body>
+</html>

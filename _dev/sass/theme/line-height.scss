@@ -1,0 +1,28 @@
+//
+// Line heights
+// -------------------------
+
+// Line height scale
+// -------------------------
+
+.lh-l			{ line-height: $lineHeight-l; }
+.lh-m			{ line-height: $lineHeight-m; }
+.lh-s			{ line-height: $lineHeight-s; }
+
+@include breakPoint(s) {
+    .bps-lh-l	{ line-height: $lineHeight-l; }
+    .bps-lh-m	{ line-height: $lineHeight-m; }
+    .bps-lh-s	{ line-height: $lineHeight-s; }
+}
+
+@include breakPoint(m) {
+    .bpm-lh-l	{ line-height: $lineHeight-l; }
+    .bpm-lh-m	{ line-height: $lineHeight-m; }
+    .bpm-lh-s	{ line-height: $lineHeight-s; }
+}
+
+@include breakPoint(l) {
+    .bpl-lh-l	{ line-height: $lineHeight-l; }
+    .bpl-lh-m	{ line-height: $lineHeight-m; }
+    .bpl-lh-s	{ line-height: $lineHeight-s; }
+}

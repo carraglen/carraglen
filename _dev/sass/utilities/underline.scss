@@ -1,0 +1,21 @@
+/*
+
+    Underline
+
+*/
+
+.underline {
+    background-size: 2px 2px;
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+}
+
+.underline--silver      { background-image: linear-gradient(to bottom, transparent 50%,  $silver  50%) }
+.underline--green       { background-image: linear-gradient(to bottom, transparent 50%,  $green  50%) }
+.underline--white       { background-image: linear-gradient(to bottom, transparent 50%,  rgba($white,.6)  50%) }
+
+@include retina {
+    .underline--silver  { background-image: linear-gradient(to bottom, transparent 75%,  $silver  75%) }
+    .underline--green   { background-image: linear-gradient(to bottom, transparent 75%,  $green  75%) }
+    .underline--white   { background-image: linear-gradient(to bottom, transparent 75%,  rgba($white,.6)  75%) }
+}

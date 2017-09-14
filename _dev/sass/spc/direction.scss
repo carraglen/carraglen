@@ -1,0 +1,22 @@
+/*
+ * Direction
+ * -------------------------
+ */
+
+.direction-ltr              { direction: ltr }
+.direction-rtl              { direction: rtl }
+
+@include breakPoint(s) {
+    .bps-direction-ltr      { direction: ltr }
+    .bps-direction-rtl      { direction: rtl }
+}
+
+@include breakPoint(m) {
+    .bpm-direction-ltr      { direction: ltr }
+    .bpm-direction-rtl      { direction: rtl }
+}
+
+@include breakPoint(l) {
+    .bpl-direction-ltr      { direction: ltr }
+    .bpl-direction-rtl      { direction: rtl }
+}

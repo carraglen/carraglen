@@ -1,0 +1,31 @@
+{% if include.type %}
+    {% if include.type == "submit" %}
+        <button type="submit" tabindex="{{ include.tabindex }}" name="{{ include.name }}" class="display-inlineBlock bs-borderBox va-middle bw-0 appearance-none ws-nowrap os-none cursor-pointer us-none td-none ta-center transitionProperty-all transitionDuration-l borderRadius-m padding-s bpm-padding-m bg-green bg-green--d--hover fw-5 c-white fs-s bpm-fs-m {{ include.class }}">
+            {{ include.title }}
+        </button>
+    {% endif %}
+
+    {% if include.type == "reset" %}
+        <button type="reset" tabindex="{{ include.tabindex }}" name="{{ include.name }}" class="display-inlineBlock bs-borderBox va-middle bw-0 appearance-none ws-nowrap os-none cursor-pointer us-none td-none ta-center transitionProperty-all transitionDuration-l borderRadius-m padding-s bpm-padding-m fs-s bpm-fs-m boxShadow-green boxShadow-none--hover c-green c-white--hover bg-white bg-green--hover {{ include.class }}">
+            {{ include.title }}
+        </button>
+    {% endif %}
+{% else %}
+    {% if include.style == "flat" %}
+        <a href="{{ include.href }}" class="display-inlineBlock bs-borderBox va-middle bw-0 appearance-none ws-nowrap os-none cursor-pointer us-none td-none ta-center transitionProperty-all transitionDuration-l borderRadius-m padding-s bpm-padding-m bg-green bg-green--d--hover fw-5 c-white fs-s bpm-fs-m {{ include.class }}">
+            {{ include.title }}
+        </a>
+    {% endif %}
+
+    {% if include.style == "ghost-reversed" %}
+        <a href="{{ include.href }}" class="display-inlineBlock bs-borderBox va-middle bw-0 appearance-none ws-nowrap os-none cursor-pointer us-none td-none ta-center transitionProperty-all transitionDuration-l borderRadius-m padding-s bpm-padding-m fs-s bpm-fs-m boxShadow-smoke boxShadow-none--hover c-white c-black--hover bg-white--hover {{ include.class }}">
+            {{ include.title }}
+        </a>
+    {% endif %}
+
+    {% if include.style == "ghost" %}
+        <a href="{{ include.href }}" class="display-inlineBlock bs-borderBox va-middle bw-0 appearance-none ws-nowrap os-none cursor-pointer us-none td-none ta-center transitionProperty-all transitionDuration-l borderRadius-m padding-s bpm-padding-m fs-s bpm-fs-m boxShadow-green boxShadow-none--hover c-green c-white--hover bg-green--hover {{ include.class }}">
+            {{ include.title }}
+        </a>
+    {% endif %}
+{% endif %}

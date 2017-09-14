@@ -1,0 +1,143 @@
+//
+// Background colors
+// -------------------------
+
+// This file depends on color-scheme.scss and
+// therefore must follow it in the compiler.
+
+// Single-responsibility classes for every background color
+// in the color scheme.
+
+.bg-green               { background-color: $green }
+.bg-green--d            { background-color: $green--d }
+.bg-green--l            { background-color: $green--l }
+
+// Gray Colors
+// -------------------------
+
+.bg-black               { background-color: $black }
+.bg-black--d            { background-color: $black--d }
+.bg-black--l            { background-color: $black--l }
+
+.bg-silver              { background-color: $silver }
+.bg-silver--d           { background-color: $silver--d }
+.bg-silver--l           { background-color: $silver--l }
+
+.bg-smoke               { background-color: $smoke }
+.bg-smoke--d            { background-color: $smoke--d }
+.bg-smoke--l            { background-color: $smoke--l }
+
+.bg-snow                { background-color: $snow }
+.bg-snow--d             { background-color: $snow--d }
+.bg-snow--l             { background-color: $snow--l }
+
+.bg-white               { background-color: $white }
+
+// Social Colors
+// -------------------------
+
+.bg-twitter             { background-color: $twitter }
+.bg-facebook            { background-color: $facebook }
+.bg-instagram           { background-color: $instagram }
+
+@include breakPoint(s) {
+    .bps-bg-green       { background-color: $green }
+    .bps-bg-green--d    { background-color: $green--d }
+    .bps-bg-green--l    { background-color: $green--l }
+
+    // Gray Colors
+    // -------------------------
+
+    .bps-bg-black       { background-color: $black }
+    .bps-bg-black--d    { background-color: $black--d }
+    .bps-bg-black--l    { background-color: $black--l }
+
+    .bps-bg-silver      { background-color: $silver }
+    .bps-bg-silver--d   { background-color: $silver--d }
+    .bps-bg-silver--l   { background-color: $silver--l }
+
+    .bps-bg-smoke       { background-color: $smoke }
+    .bps-bg-smoke--d    { background-color: $smoke--d }
+    .bps-bg-smoke--l    { background-color: $smoke--l }
+
+    .bps-bg-snow        { background-color: $snow }
+    .bps-bg-snow--d     { background-color: $snow--d }
+    .bps-bg-snow--l     { background-color: $snow--l }
+
+    .bps-bg-white       { background-color: $white }
+
+    // Social Colors
+    // -------------------------
+
+    .bps-bg-twitter     { background-color: $twitter }
+    .bps-bg-facebook    { background-color: $facebook }
+    .bps-bg-instagram   { background-color: $instagram }
+}
+
+@include breakPoint(m) {
+    .bpm-bg-green       { background-color: $green }
+    .bpm-bg-green--d    { background-color: $green--d }
+    .bpm-bg-green--l    { background-color: $green--l }
+
+    // Gray Colors
+    // -------------------------
+
+    .bpm-bg-black       { background-color: $black }
+    .bpm-bg-black--d    { background-color: $black--d }
+    .bpm-bg-black--l    { background-color: $black--l }
+
+    .bpm-bg-silver      { background-color: $silver }
+    .bpm-bg-silver--d   { background-color: $silver--d }
+    .bpm-bg-silver--l   { background-color: $silver--l }
+
+    .bpm-bg-smoke       { background-color: $smoke }
+    .bpm-bg-smoke--d    { background-color: $smoke--d }
+    .bpm-bg-smoke--l    { background-color: $smoke--l }
+
+    .bpm-bg-snow        { background-color: $snow }
+    .bpm-bg-snow--d     { background-color: $snow--d }
+    .bpm-bg-snow--l     { background-color: $snow--l }
+
+    .bpm-bg-white       { background-color: $white }
+
+    // Social Colors
+    // -------------------------
+
+    .bpm-bg-twitter     { background-color: $twitter }
+    .bpm-bg-facebook    { background-color: $facebook }
+    .bpm-bg-instagram   { background-color: $instagram }
+}
+
+@include breakPoint(l) {
+    .bpl-bg-green       { background-color: $green }
+    .bpl-bg-green--d    { background-color: $green--d }
+    .bpl-bg-green--l    { background-color: $green--l }
+
+    // Gray Colors
+    // -------------------------
+
+    .bpl-bg-black       { background-color: $black }
+    .bpl-bg-black--d    { background-color: $black--d }
+    .bpl-bg-black--l    { background-color: $black--l }
+
+    .bpl-bg-silver      { background-color: $silver }
+    .bpl-bg-silver--d   { background-color: $silver--d }
+    .bpl-bg-silver--l   { background-color: $silver--l }
+
+    .bpl-bg-smoke       { background-color: $smoke }
+    .bpl-bg-smoke--d    { background-color: $smoke--d }
+    .bpl-bg-smoke--l    { background-color: $smoke--l }
+
+    .bpl-bg-snow        { background-color: $snow }
+    .bpl-bg-snow--d     { background-color: $snow--d }
+    .bpl-bg-snow--l     { background-color: $snow--l }
+
+    .bpl-bg-white       { background-color: $white }
+
+    // Social Colors
+    // -------------------------
+
+    .bpl-bg-twitter     { background-color: $twitter }
+    .bpl-bg-facebook    { background-color: $facebook }
+    .bpl-bg-instagram   { background-color: $instagram }
+}

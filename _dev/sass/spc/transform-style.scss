@@ -1,0 +1,22 @@
+/*
+ * Transform style
+ * -------------------------
+ */
+
+.ts-flat                { transform-style: flat }
+.ts-preserve3d          { transform-style: preserve-3d }
+
+@include breakPoint(s) {
+    .bps-ts-flat        { transform-style: flat }
+    .bps-ts-preserve3d  { transform-style: preserve-3d }
+}
+
+@include breakPoint(m) {
+    .bpm-ts-flat        { transform-style: flat }
+    .bpm-ts-preserve3d  { transform-style: preserve-3d }
+}
+
+@include breakPoint(l) {
+    .bpl-ts-flat        { transform-style: flat }
+    .bpl-ts-preserve3d  { transform-style: preserve-3d }
+}

@@ -1,0 +1,22 @@
+---
+title: Carraglen Ltd.
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: yavor.punchev@gmail.com
+description: Carraglen delivers creative, cost-efficient & robust construction solutions
+baseurl: 
+url: 
+twitter_username: carraglen
+markdown: kramdown
+theme: minima
+exclude:
+- _dev
+- gulpfile.js
+- node_modules
+- package.json

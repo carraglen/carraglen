@@ -1,0 +1,30 @@
+/*
+ * Animation fill mode
+ * -------------------------
+ */
+
+.afm-backwards          { animation-fill-mode: backwards; }
+.afm-both               { animation-fill-mode: both; }
+.afm-forwards           { animation-fill-mode: forwards; }
+.afm-none               { animation-fill-mode: none; }
+
+@include breakPoint(s) {
+    .bps-afm-backwards  { animation-fill-mode: backwards; }
+    .bps-afm-both       { animation-fill-mode: both; }
+    .bps-afm-forwards   { animation-fill-mode: forwards; }
+    .bps-afm-none       { animation-fill-mode: none; }
+}
+
+@include breakPoint(m) {
+    .bpm-afm-backwards  { animation-fill-mode: backwards; }
+    .bpm-afm-both       { animation-fill-mode: both; }
+    .bpm-afm-forwards   { animation-fill-mode: forwards; }
+    .bpm-afm-none       { animation-fill-mode: none; }
+}
+
+@include breakPoint(l) {
+    .bpl-afm-backwards  { animation-fill-mode: backwards; }
+    .bpl-afm-both       { animation-fill-mode: both; }
+    .bpl-afm-forwards   { animation-fill-mode: forwards; }
+    .bpl-afm-none       { animation-fill-mode: none; }
+}

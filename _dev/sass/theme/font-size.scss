@@ -1,0 +1,45 @@
+//
+// Font sizes
+// -------------------------
+
+// Font size scale
+// -------------------------
+
+.fs-xxxl            { font-size: $fs-xxxl; }
+.fs-xxl             { font-size: $fs-xxl; }
+.fs-xl              { font-size: $fs-xl; }
+.fs-l               { font-size: $fs-l; }
+.fs-m               { font-size: $fs-m; }
+.fs-s               { font-size: $fs-s; }
+.fs-xs              { font-size: $fs-xs; }
+
+
+@include breakPoint(s) {
+    .bps-fs-xxxl    { font-size: $fs-xxxl; }
+    .bps-fs-xxl     { font-size: $fs-xxl; }
+    .bps-fs-xl      { font-size: $fs-xl; }
+    .bps-fs-l       { font-size: $fs-l; }
+    .bps-fs-m       { font-size: $fs-m; }
+    .bps-fs-s       { font-size: $fs-s; }
+    .bps-fs-xs      { font-size: $fs-xs; }
+}
+
+@include breakPoint(m) {
+    .bpm-fs-xxxl    { font-size: $fs-xxxl; }
+    .bpm-fs-xxl     { font-size: $fs-xxl; }
+    .bpm-fs-xl      { font-size: $fs-xl; }
+    .bpm-fs-l       { font-size: $fs-l; }
+    .bpm-fs-m       { font-size: $fs-m; }
+    .bpm-fs-s       { font-size: $fs-s; }
+    .bpm-fs-xs      { font-size: $fs-xs; }
+}
+
+@include breakPoint(l) {
+    .bpl-fs-xxxl    { font-size: $fs-xxxl; }
+    .bpl-fs-xxl     { font-size: $fs-xxl; }
+    .bpl-fs-xl      { font-size: $fs-xl; }
+    .bpl-fs-l       { font-size: $fs-l; }
+    .bpl-fs-m       { font-size: $fs-m; }
+    .bpl-fs-s       { font-size: $fs-s; }
+    .bpl-fs-xs      { font-size: $fs-xs; }
+}

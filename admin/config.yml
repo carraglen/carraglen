@@ -2,5 +2,4 @@ backend:
   name: github
   repo: carraglen/carraglen
   branch: master
-  publish_mode: editorial_workflow
   media_folder: "uploads"
